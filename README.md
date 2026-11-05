@@ -4,6 +4,14 @@ Opdateret 05-11-2026.
 
 Sager fra alle udvalg i Glostrup Kommune, der berører skolerne – med fokus på Nordvangskolen og afdeling Ejby. Nyeste først. Datoer linker til mødet, sager til punktet. Kilde: [Åben Dagsorden](https://dagsorden.glostrup.dk/).
 
+## Kommende møder
+
+| Dato | Møde | Relevans |
+| --- | --- | --- |
+| 09-11-2026 | [Dialogmøde, udvalg og skolebestyrelser](https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207528) | Tema: skolernes egen identitet og udvikling samt dialogen med udvalget. |
+| 25-11-2026 | [Kommunalbestyrelsen](https://dagsorden.glostrup.dk/) | Forventet endelig beslutning om skoledistrikter 2027/28 og anlægsregnskab. Dagsorden ikke publiceret. |
+| December 2026 | [Børne- og Skoleudvalget](https://dagsorden.glostrup.dk/meeting/agendaitem/print/125381/205997) | Afholdes på daginstitutionen Mælkevejen. |
+
 ## Åbne sager
 
 Ikke endeligt afgjort: kun indstillet af forvaltningen eller anbefalet af et udvalg, endnu ikke besluttet af den myndighed, der har beslutningskompetencen.
@@ -43,11 +51,3 @@ Referat med endelig beslutning.
 | [28-01-2026](https://dagsorden.glostrup.dk/meeting/4012) | Kommunalbestyrelsen | [SFO Broholm bliver klasselokale](https://dagsorden.glostrup.dk/meeting/agendaitem/print/90405/148577) | Ombygning godkendt; forvaltningen skal fremlægge en pavillonløsning. |
 | [28-01-2026](https://dagsorden.glostrup.dk/meeting/4012) | Kommunalbestyrelsen | [Sikker skolevej i Ejby (medlemsforslag)](https://dagsorden.glostrup.dk/meeting/agendaitem/print/90405/148609) | Sendt videre til Miljø-, Teknik- og Ejendomsudvalget. |
 | [07-01-2026](https://dagsorden.glostrup.dk/meeting/3980) | Børne- og Skoleudvalget | [Valg af forældrerepræsentanter](https://dagsorden.glostrup.dk/meeting/agendaitem/print/90617/148873) | Nye valgregler for skolebestyrelserne. Til orientering. |
-
-## Kommende møder
-
-| Dato | Møde | Relevans |
-| --- | --- | --- |
-| 09-11-2026 | [Dialogmøde, udvalg og skolebestyrelser](https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207528) | Tema: skolernes egen identitet og udvikling samt dialogen med udvalget. |
-| 25-11-2026 | [Kommunalbestyrelsen](https://dagsorden.glostrup.dk/) | Forventet endelig beslutning om skoledistrikter 2027/28 og anlægsregnskab. Dagsorden ikke publiceret. |
-| December 2026 | [Børne- og Skoleudvalget](https://dagsorden.glostrup.dk/meeting/agendaitem/print/125381/205997) | Afholdes på daginstitutionen Mælkevejen. |
