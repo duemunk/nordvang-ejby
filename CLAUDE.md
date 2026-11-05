@@ -6,3 +6,4 @@
 - Opdatering af oversigten: brug skillen `opdater-skolesager` (`.claude/skills/opdater-skolesager/SKILL.md`).
 - Typografi og farver følger Nordvang-/Ejbyskolens visuelle identitet: Source Sans 3, navy `#0b1f5a`, gul `#f2a826`, grøn `#32896A` i logoet. Ret dem kun i `scripts/faelles.py`.
 - Delingsbilledet `delingsbillede.png` (1200 × 630) tegnes fra `scripts/delingsbillede.html` med headless Chrome: `--headless=new --window-size=1200,630 --screenshot=delingsbillede.png`.
+- Hjemmeskærmsikonerne i `ikoner/` tegnes fra `scripts/ikon.html` med headless Chrome i 180, 192 og 512 px (`?w=64`), og den maskable i 512 px med `?w=50`. `manifest.webmanifest` peger på dem.

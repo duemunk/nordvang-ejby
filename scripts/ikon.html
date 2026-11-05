@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<title>Ikon – Nordvang/Ejby</title>
+<style>
+html, body { margin:0; width:100vw; height:100vh; background:#0b1f5a; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+svg { width:var(--w, 64vw); height:auto; transform:translateY(-2%); }
+</style>
+</head>
+<body>
+<svg viewBox="0 0 89 55" xmlns="http://www.w3.org/2000/svg">
+  <polygon fill="#F2A826" points="30 0 53 16 53 55 30 55"/>
+  <polygon fill="#F2A826" points="0 16 24 0 24 55 0 55"/>
+  <polygon fill="#32896A" transform="translate(74, 38) scale(-1, 1) translate(-74, -38)" points="59 39.3076923 74 21 89 39.3076923 89 55 59 55"/>
+</svg>
+<script>
+  var w = new URLSearchParams(location.search).get("w");
+  if (w) document.documentElement.style.setProperty("--w", w + "vw");
+</script>
+</body>
+</html>

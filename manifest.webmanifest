@@ -1,0 +1,16 @@
+{
+  "background_color": "#0b1f5a",
+  "display": "browser",
+  "icons": [
+    {"purpose": "any", "sizes": "192x192", "src": "ikoner/icon-192.png", "type": "image/png"},
+    {"purpose": "any", "sizes": "512x512", "src": "ikoner/icon-512.png", "type": "image/png"},
+    {"purpose": "maskable", "sizes": "512x512", "src": "ikoner/icon-maskable-512.png", "type": "image/png"}
+  ],
+  "id": "./",
+  "lang": "da",
+  "name": "Skolesager – Nordvang/Ejby",
+  "scope": "./",
+  "short_name": "Nordvang/Ejby",
+  "start_url": "./",
+  "theme_color": "#ffffff"
+}

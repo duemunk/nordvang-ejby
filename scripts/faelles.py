@@ -51,6 +51,10 @@ def build_head(title, description, path, prefix, share_description=None):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title_e}</title>
 <link rel="icon" href="{prefix}favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{prefix}ikoner/apple-touch-icon.png">
+<link rel="manifest" href="{prefix}manifest.webmanifest">
+<meta name="apple-mobile-web-app-title" content="Nordvang/Ejby">
+<meta name="theme-color" content="#ffffff">
 <meta name="description" content="{description_e}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="da_DK">
