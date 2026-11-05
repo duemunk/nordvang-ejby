@@ -61,8 +61,34 @@ th { text-align:left; font-weight:600; color:var(--grey); border-bottom:2px soli
 td { vertical-align:top; border-bottom:1px solid var(--line); padding:8px 10px; }
 td:first-child { white-space:nowrap; font-variant-numeric:tabular-nums; }
 .aabne td:first-child { box-shadow:inset 3px 0 0 var(--yellow); }
+tbody tr.group-start:not(:first-child) td { border-top:2px solid var(--line); }
+tr.repeat td { border-top:0; }
+tr.repeat td.meta { color:transparent; }
+tr.repeat td.meta a { visibility:hidden; }
 footer { margin-top:40px; padding-top:8px; border-top:1px solid var(--line); color:var(--grey); font-size:14px; }
-@media (max-width:640px) { h1 { font-size:26px; } table { font-size:15px; } td, th { padding:6px 8px; } }
+@media (max-width:640px) {
+  .page { padding:20px 16px 40px; }
+  header { margin-bottom:20px; }
+  header .logo { width:44px; }
+  h1 { font-size:26px; }
+  h2 { font-size:20px; margin-top:28px; }
+  .table-wrap { overflow:visible; }
+  table, tbody, tr, td { display:block; width:auto; }
+  thead { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+  tr { padding:12px 0; border-bottom:1px solid var(--line); }
+  td, tbody tr.group-start:not(:first-child) td { border:0; padding:0; }
+  tr.repeat td.meta { color:var(--grey); }
+  tr.repeat td.meta a { visibility:visible; }
+  tbody tr.group-start:not(:first-child) { border-top:1px solid var(--line); }
+  td.meta { display:inline; color:var(--grey); font-size:15px; }
+  td.meta + td.meta::before { content:" · "; }
+  td.title { margin-top:2px; font-weight:600; }
+  td.body { margin-top:2px; }
+  td.labelled { margin-top:4px; color:var(--grey); font-size:15px; }
+  td.labelled::before { content:attr(data-label) ": "; font-weight:600; }
+  .aabne tr { padding-left:12px; box-shadow:inset 3px 0 0 var(--yellow); }
+  .aabne td:first-child { box-shadow:none; }
+}
 </style>
 </head>
 <body>
@@ -100,14 +126,29 @@ def cells(line):
     return [cell.strip() for cell in line.strip().strip("|").split("|")]
 
 
+CELL_ROLES = {"Dato": "meta", "Udvalg": "meta", "Sag": "title", "Møde": "title", "Mangler": "labelled"}
+
+
 def render_table(lines):
     head = cells(lines[0])
     rows = [cells(line) for line in lines[2:]]
+    roles = [CELL_ROLES.get(h, "body") for h in head]
     out = ['<div class="table-wrap"><table>', "<thead><tr>"]
     out += [f"<th>{inline(c)}</th>" for c in head]
     out.append("</tr></thead><tbody>")
+    previous_key = None
     for row in rows:
-        out.append("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in row) + "</tr>")
+        key = tuple(c for c, role in zip(row, roles) if role == "meta")
+        group_class = "repeat" if key and key == previous_key else "group-start"
+        previous_key = key
+        out.append(
+            f'<tr class="{group_class}">'
+            + "".join(
+                f'<td class="{role}" data-label="{html.escape(label)}">{inline(c)}</td>'
+                for c, role, label in zip(row, roles, head)
+            )
+            + "</tr>"
+        )
     out.append("</tbody></table></div>")
     return "\n".join(out)
 
