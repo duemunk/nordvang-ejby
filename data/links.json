@@ -1,0 +1,117 @@
+[
+ {
+  "group": "Politik og beslutninger",
+  "links": [
+   {
+    "title": "Åben Dagsorden",
+    "note": "Dagsordener og referater fra alle udvalg",
+    "url": "https://dagsorden.glostrup.dk/"
+   },
+   {
+    "title": "Kommunalbestyrelsen",
+    "note": "Medlemmer og møder",
+    "url": "https://www.glostrup.dk/demokrati/kommunalbestyrelsen"
+   },
+   {
+    "title": "Politiske udvalg og organisation",
+    "note": "Bl.a. Børne- og Skoleudvalget",
+    "url": "https://www.glostrup.dk/demokrati/politiske-udvalg-og-organisation"
+   },
+   {
+    "title": "Høringer og afgørelser",
+    "note": "Kommunens offentlige høringer",
+    "url": "https://www.glostrup.dk/demokrati/hoeringer-og-afgoerelser"
+   },
+   {
+    "title": "Politikker og strategier",
+    "note": "Fx Børne- og Ungepolitikken",
+    "url": "https://www.glostrup.dk/demokrati/politikker-og-strategier"
+   },
+   {
+    "title": "Budgetproces",
+    "note": "Tidsplan for næste års budget",
+    "url": "https://www.glostrup.dk/demokrati/budgetproces-budget-regnskab-og-skatter/budgetproces"
+   },
+   {
+    "title": "Budget",
+    "note": "Vedtagne budgetter",
+    "url": "https://www.glostrup.dk/demokrati/budgetproces-budget-regnskab-og-skatter/budget"
+   }
+  ]
+ },
+ {
+  "group": "Skolebestyrelsen",
+  "links": [
+   {
+    "title": "Skolebestyrelser",
+    "note": "Skolerne i Glostrups side om bestyrelserne",
+    "url": "https://skolerneiglostrup.dk/skolebestyrelsen/skolebestyrelsen/"
+   },
+   {
+    "title": "Referater, Nordvang/Ejbyskolen",
+    "note": "Dagsordener og referater som PDF (Google Drive)",
+    "url": "https://drive.google.com/drive/folders/1wy7QcmXD0iuhFbZv6E8iGdMmu9Gv28CH"
+   },
+   {
+    "title": "Principper, Nordvang/Ejbyskolen",
+    "note": "Bestyrelsens principper (Google Drive)",
+    "url": "https://drive.google.com/drive/folders/1zuK9zaHcd3HFEmefq7sEB-Xh39zz5TrK"
+   },
+   {
+    "title": "Referater, alle skoler",
+    "note": "Alle fire bestyrelser (Google Drive)",
+    "url": "https://drive.google.com/drive/folders/16xzIxuWbVCgtnTLdUEW2QlOSbZqIyMt6"
+   },
+   {
+    "title": "Principper, alle skoler",
+    "note": "Alle fire bestyrelser (Google Drive)",
+    "url": "https://drive.google.com/drive/folders/1oC94rv-1Gc1C4KrOv6-fcMn8IrkWz1rJ"
+   }
+  ]
+ },
+ {
+  "group": "Skolerne",
+  "links": [
+   {
+    "title": "Nordvangskolen",
+    "url": "https://skolerneiglostrup.dk/skolerne/nordvang/"
+   },
+   {
+    "title": "Ejbyskolen",
+    "url": "https://skolerneiglostrup.dk/skolerne/ejby/"
+   },
+   {
+    "title": "Specialområdet",
+    "url": "https://skolerneiglostrup.dk/om-os/specialomraadet/"
+   },
+   {
+    "title": "Udskolingen",
+    "url": "https://skolerneiglostrup.dk/om-os/udskolingen/"
+   },
+   {
+    "title": "Kontakt",
+    "url": "https://skolerneiglostrup.dk/om-os/kontakt/"
+   }
+  ]
+ },
+ {
+  "group": "For forældre",
+  "links": [
+   {
+    "title": "Skole i Glostrup",
+    "note": "Indskrivning, skoledistrikter, skolevej",
+    "url": "https://www.glostrup.dk/borger/familie-og-boern/skole"
+   },
+   {
+    "title": "Efter skoletid",
+    "note": "SFO og klub",
+    "url": "https://www.glostrup.dk/borger/familie-og-boern/efter-skoletid"
+   },
+   {
+    "title": "Skole og Forældre",
+    "note": "Landsforening for skolebestyrelser og forældre",
+    "url": "https://skole-foraeldre.dk/"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1746 @@
+{
+ "opdateret": "2026-11-05",
+ "referater_fra_til": [
+  "2024-08-15",
+  "2026-01-14"
+ ],
+ "temaer": [
+  {
+   "slug": "klasser",
+   "name": "Klasser, distrikter og udskoling"
+  },
+  {
+   "slug": "kapacitet",
+   "name": "Lokaler og bygninger"
+  },
+  {
+   "slug": "skoleveje",
+   "name": "Skoleveje og trafik"
+  },
+  {
+   "slug": "mobil",
+   "name": "Mobil, skærm og digitale enheder"
+  },
+  {
+   "slug": "sfo",
+   "name": "SFO og klub"
+  },
+  {
+   "slug": "oekonomi",
+   "name": "Økonomi og budget"
+  },
+  {
+   "slug": "special",
+   "name": "Specialområdet"
+  },
+  {
+   "slug": "trivsel",
+   "name": "Trivsel og undervisning"
+  },
+  {
+   "slug": "bestyrelse",
+   "name": "Bestyrelsens arbejde"
+  }
+ ],
+ "sager": [
+  {
+   "id": "klasser-2027",
+   "topic": "klasser",
+   "status": "åben",
+   "t": "0.-klasser og skoledistrikter 2027/28",
+   "lead": "Udvalget anbefaler 2 klasser på Nordvang og 2 i Ejby. Bestyrelsen ønskede 3 spor på Nordvang. Kommunalbestyrelsen beslutter.",
+   "events": [
+    {
+     "d": "2026-11-25",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Kommende",
+     "t": "Endelig beslutning ventes",
+     "x": "Kommunalbestyrelsen skal beslutte antal klasser og distriktsgrænser før indskrivningen. Dagsorden ikke publiceret.",
+     "links": [
+      [
+       "Åben Dagsorden",
+       "https://dagsorden.glostrup.dk/"
+      ]
+     ]
+    },
+    {
+     "d": "2026-11-04",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Anbefaling",
+     "t": "Scenarie A anbefalet 5–2",
+     "x": "Nordvang 2 og Ejby 2 0.-klasser, i alt 13. Ejby får to ledige lokaler fra august 2027. V og U stemte for B.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207536"
+      ]
+     ]
+    },
+    {
+     "d": "2026-09-24",
+     "src": "Skolebestyrelsen",
+     "kind": "Høringssvar",
+     "t": "Bestyrelsen anbefaler scenarie B",
+     "x": "Afgivet inden høringsfristen 24. september (datoen er fristen). Fasthold tre spor på Nordvang. Skolen er presset på klasselokaler og SFO. Ønsker en permanent bygning i stedet for Broholm frem for pavilloner.",
+     "links": [
+      [
+       "Høringssvar (PDF)",
+       "https://dagsorden.glostrup.dk/meeting/attachment/248980"
+      ]
+     ]
+    },
+    {
+     "d": "2026-08-12",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Høring",
+     "t": "Fire scenarier sendt i høring",
+     "x": "Udvalget sender scenarie A–D for antal 0.-klasser og distriktsgrænser i høring hos skolebestyrelserne (6–0).",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/123611/203751"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "klasser-2026",
+   "topic": "klasser",
+   "status": "afgjort",
+   "t": "0.-klasser og skoledistrikter 2026/27",
+   "lead": "Tre 0.-klasser på Nordvang og én i Ejby. Bestyrelsen pegede på, at det kræver 12 indskolingslokaler, og skolen har 10.",
+   "events": [
+    {
+     "d": "2026-03-04",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Orientering",
+     "t": "Resultat af indskrivningen",
+     "x": "Nordvang 61 elever i 3 klasser. Ejby 26 elever i 1 klasse med dispensation fra loftet på 24.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/89865/147849"
+      ]
+     ]
+    },
+    {
+     "d": "2025-12-02",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Lokalekapacitet og søskendegaranti",
+     "x": "Kapaciteten bliver mere udfordret; formanden undersøger fælles indsats med Søndervangs SB og følger op på søskendegaranti.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1PA1t-teimXafNjzsXalZOWzrmMdzFUUi/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-11-26",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Scenarie A vedtaget",
+     "x": "Venstres forslag om tre pavilloner ud over tre klasser faldt 5–13. Scenarie A og distrikt A2 vedtaget.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/91493/149929"
+      ],
+      [
+       "Høringssvar (PDF)",
+       "https://dagsorden.glostrup.dk/meeting/attachment/180405"
+      ]
+     ]
+    },
+    {
+     "d": "2025-11-05",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Anbefaling",
+     "t": "Scenarie A og distrikt A2 anbefalet",
+     "x": "5 for, 2 undlod (V). Bestyrelsens høringssvar ligger som bilag.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/91493/149929"
+      ],
+      [
+       "Høringssvar (PDF)",
+       "https://dagsorden.glostrup.dk/meeting/attachment/180721"
+      ]
+     ]
+    },
+    {
+     "d": "2025-09-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Høringssvar",
+     "t": "Høringssvar om skoledistrikter vedtaget",
+     "x": "Nordvangskolen har 10 indskolingslokaler, men tre 0. klasser i 26/27 vil kræve 12 klasselokaler.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1BkyLUyezBYu8PedT2F0RAwXykRqTDqvO/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-08-12",
+     "src": "Skolebestyrelsen",
+     "kind": "Høringssvar",
+     "t": "Høringssvar om skoledistrikter",
+     "x": "SB anbefaler scenarie B pga. kapacitetsudfordringer; bufferen er for lille og skaber utryghed om, hvor børn skal gå.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/18y9Q-yTGTe4GpJAIilz73HhaaVGfQrrR/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-08-12",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Kapacitetsudfordringer på Nordvang og Ejby",
+     "x": "Ekstra lokale på Broholm til 155.000 kr. ligger uden for rammen; plads til 8 klasser på mellemtrin og udskoling, behov for 9.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/18y9Q-yTGTe4GpJAIilz73HhaaVGfQrrR/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "klasser-2025",
+   "topic": "klasser",
+   "status": "afgjort",
+   "t": "0.-klasser og skoledistrikter 2025/26",
+   "lead": "Udvalget valgte 12 0.-klasser og distriktsmodel B, som bestyrelsen anbefalede.",
+   "events": [
+    {
+     "d": "2025-04-24",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Indskrivning og klasseloft",
+     "x": "Særlig proces for indskrivning til 0. årgang pga. to matrikler; SB holder fokus på dispensation fra klasseloftet.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1n53TvLaMS_t_TL7Eg1Jbrafa7l3PQP_P/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-03-18",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Dispensation fra klasseloftet",
+     "x": "Formanden undersøger, hvordan styrelsesvedtægten skal forstås om dispensation fra klasseloftet ved indskrivning til 0. årgang.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1FKHqQfEjiwsc0Ti8oDwhIZEDIc4GdYoV/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-02-12",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Indskrivning til 0. klasse",
+     "x": "25 børn indskrevet på Ejby og 70 på Nordvang; ledelsen ønsker drøftelse af sen klassedannelse i 0. klasse.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1nf9dLa0dL8XLueKdVJzBPHhvU65MjhQ6/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-10-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Skoledistriktsmodel B besluttet",
+     "x": "Kommunen har besluttet skoledistriktsmodel B.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1SiiOXSrFxVqhgRB6Emc0iKbpCERpvMGa/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-10-02",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Beslutning",
+     "t": "12 klasser og model B",
+     "x": "Der dannes 12 0.-klasser for 2025/26. Distriktsgrænserne fastlægges efter model B.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/96177/157309"
+      ],
+      [
+       "Høringssvar (PDF)",
+       "https://dagsorden.glostrup.dk/meeting/attachment/190221"
+      ]
+     ]
+    },
+    {
+     "d": "2024-09-16",
+     "src": "Skolebestyrelsen",
+     "kind": "Høringssvar",
+     "t": "Høringssvar om skoledistrikter og klasseoprettelse",
+     "x": "SB anbefaler scenarie B, er neutral over for A og C, fraråder D og ønsker dispensation fra klassekvotienten.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1RUvdlHW_4YJo62J3y5JXN_9-YGca3_n2/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "udskoling",
+   "topic": "klasser",
+   "status": "afgjort",
+   "t": "Ny udskolingsmodel",
+   "lead": "Model A blev valgt, så skolen selv former udskolingen. Kravet om linjer i 8.–9. klasse er ophævet.",
+   "events": [
+    {
+     "d": "2025-05-28",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Linjemodellen ophæves",
+     "x": "Fra 2025/26 beslutter hver skole selv, om 8. og 9. klasse har linjer. Alle fire bestyrelser støttede.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/93381/152657"
+      ],
+      [
+       "Høringssvar (PDF)",
+       "https://dagsorden.glostrup.dk/meeting/attachment/183909"
+      ]
+     ]
+    },
+    {
+     "d": "2025-05-19",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Tre 6. klasser bliver til to 7. klasser",
+     "x": "SB orienteret om processen for sammenlægning; SB kan deltage i første forældremøde i 7. klasse.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/13acRwsuqTh1-me2yQWknuBh_pGtn2FgR/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-04-24",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Høringssvar om linjemodel i udskolingen",
+     "x": "Drøftet om skolerne skal have frihed i linjebeslutningen; ønske om at eleverne høres; formanden skriver høringssvar.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1n53TvLaMS_t_TL7Eg1Jbrafa7l3PQP_P/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-12-18",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Model A godkendt",
+     "x": "Styrelsesvedtægt, udskolingsmodel A og tildelingsmodel godkendt af alle.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/95221/155653"
+      ]
+     ]
+    },
+    {
+     "d": "2024-12-10",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Første tanker om ny udskoling",
+     "x": "Model A: klassedeling, valgfag, elevinddragelse og møde med 6. årgangs forældre drøftet; skolen leverer procesplan til februar.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1Y0t-Levphq80UmjBnn5Bq2Tb5IHAtw1O/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-11-27",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Anbefaling",
+     "t": "Udskolingsmodel A anbefalet",
+     "x": "Revideret styrelsesvedtægt med model A og principper for tildelingsmodel anbefalet. Bestyrelsens høringssvar som bilag.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/95221/155653"
+      ],
+      [
+       "Høringssvar (PDF)",
+       "https://dagsorden.glostrup.dk/meeting/attachment/188281"
+      ]
+     ]
+    },
+    {
+     "d": "2024-11-11",
+     "src": "Skolebestyrelsen",
+     "kind": "Høringssvar",
+     "t": "Høringssvar: model A for udskoling",
+     "x": "Ekstraordinært møde: SB anbefaler model A, så skolen selv definerer udskolingen; bekymring for udsatte elever ved skift.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/13BcSUK_mAKIQJdwBgNj2bbHgtFm0qoSE/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-10-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Høring om ny udskolingsmodel på vej",
+     "x": "Høringsmateriale kommer 31. oktober med frist 13. november; alle skolebestyrelser ønsker en kommunalpolitiker med i SB.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1SiiOXSrFxVqhgRB6Emc0iKbpCERpvMGa/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kapacitet-nordvang",
+   "topic": "kapacitet",
+   "status": "åben",
+   "t": "Lokaler på Nordvang: Broholm og pavilloner",
+   "lead": "Broholm er ombygget til ekstra klasselokale. Pavilloner er sendt til budget 2027, og finansiering kommer i en selvstændig sag.",
+   "events": [
+    {
+     "d": "2026-11-04",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Anbefaling",
+     "t": "Behov for flere klasselokaler",
+     "x": "1 ekstra lokale i 2027 og 2 i 2028. Mindst 2 kan laves inden for nuværende rammer. Pavillon: leje 3,5–4 mio. kr. for 2 år, køb 8,6 mio. kr.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207536"
+      ]
+     ]
+    },
+    {
+     "d": "2026-06-24",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Pavilloner sendt til budget 2027",
+     "x": "Opsætning af pavilloner fra august 2027, lokalplan og dispensation oversendt til budgetprocessen.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/123101/203165"
+      ]
+     ]
+    },
+    {
+     "d": "2026-01-28",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "SFO Broholm bliver klasselokale",
+     "x": "Ombygning godkendt. Forvaltningen skal fremlægge en pavillonløsning ud fra behovet de kommende år.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/90405/148577"
+      ]
+     ]
+    },
+    {
+     "d": "2026-01-14",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Kapacitet på Broholm hos KB",
+     "x": "Kommunalbestyrelsen skal tage stilling til kapacitet på Broholm; placering af nyt dagtilbud i Ejby drøftes.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1QH4SEsP4iJqD7Ri-JNH6vrVDXPDSdhRR/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-11-26",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Pavilloner afvist i distriktssagen",
+     "x": "Forslag om tre pavilloner ud over tre 0.-klasser faldt 5–13.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/91493/149929"
+      ]
+     ]
+    },
+    {
+     "d": "2025-09-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Høringssvar om skoledistrikter vedtaget",
+     "x": "Nordvangskolen har 10 indskolingslokaler, men tre 0. klasser i 26/27 vil kræve 12 klasselokaler.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1BkyLUyezBYu8PedT2F0RAwXykRqTDqvO/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-08-12",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Kapacitetsudfordringer på Nordvang og Ejby",
+     "x": "Ekstra lokale på Broholm til 155.000 kr. ligger uden for rammen; plads til 8 klasser på mellemtrin og udskoling, behov for 9.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/18y9Q-yTGTe4GpJAIilz73HhaaVGfQrrR/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-04-24",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Kapacitet og valgmøde på tværs",
+     "x": "Skolebestyrelserne vil invitere til valgmøde og fremover arbejde med skolernes kapacitet i forhold til børnetallet.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1n53TvLaMS_t_TL7Eg1Jbrafa7l3PQP_P/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "faglokaler",
+   "topic": "kapacitet",
+   "status": "åben",
+   "t": "Faglokaler og fysik/kemi",
+   "lead": "Bestyrelsen og elevrådet ønsker nyt fysik/kemilokale. Puljen på 1,5 mio. kr. deles mellem skolerne.",
+   "events": [
+    {
+     "d": "2026-06-03",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Orientering",
+     "t": "Pulje til faglokaler fordelt",
+     "x": "1,5 mio. kr. i budget 2026. Nordvang ønsker investeringer omkring fysik/kemi og biologi.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/122665/202301"
+      ]
+     ]
+    },
+    {
+     "d": "2025-11-04",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Elevrådets mærkesager",
+     "x": "Aktiv undervisning, bedre udearealer og ønske om nyt fysik/kemilokale.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1hUSjtbewncjh8wq4MNiDvUfHtrpZJaM3/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-09-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Høringssvar til budget godkendt",
+     "x": "Godkendt med tilføjelse om, at økonomien til faglokaler ikke står mål med behovet.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1BkyLUyezBYu8PedT2F0RAwXykRqTDqvO/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-09-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Faglokalemidler i bloktilskud",
+     "x": "Kvalitetsprogrammets 2,6 mia. kr. til faglokaler gives som generelt bloktilskud; ingen krav om, at pengene bruges på skolerne.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1BkyLUyezBYu8PedT2F0RAwXykRqTDqvO/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-06-17",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Ønsker til budget 2026",
+     "x": "Prioriteter: lejrskoler, fysik/kemilokale, energioptimering, indvendig vedligehold, lokal pedel og kapacitet; formanden laver oplæg til politikerne.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1wYwHEEUe6PcV9aL0oQ1hsD3x-92khMgr/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-05-19",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "National pulje til faglokaler",
+     "x": "Formanden har spurgt BSU-formanden om den nationale økonomi til nye faglokaler; svar afventes.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/13acRwsuqTh1-me2yQWknuBh_pGtn2FgR/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vedligehold",
+   "topic": "kapacitet",
+   "status": "åben",
+   "t": "Renovering og vedligehold",
+   "lead": "Renoveringen af Nordvang (13,0 mio. kr.) er afsluttet. Regnskabet venter på Kommunalbestyrelsen.",
+   "events": [
+    {
+     "d": "2026-11-04",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Anbefaling",
+     "t": "Anlægsregnskab anbefalet",
+     "x": "Nye vinduer, gulve, madkundskab, teatersal og cykelskure for 13,0 mio. kr. Indeklimaprojekt 4,5 mio. kr., bl.a. ventilation i bygning H.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207540"
+      ]
+     ]
+    },
+    {
+     "d": "2025-02-12",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Skimmel på Ejbyskolen",
+     "x": "Ledelsen følger sagen om skimmel på Ejbyskolen tæt; rengøring i uge 8.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1nf9dLa0dL8XLueKdVJzBPHhvU65MjhQ6/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-02-12",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Rundering og vedligehold på Ejby",
+     "x": "Mangelliste fra rundering delt; samlet henvendelse om Glostrup Ejendommes serviceniveau overvejes; ønske om pedel på hver matrikel.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1nf9dLa0dL8XLueKdVJzBPHhvU65MjhQ6/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-01-14",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Arbejdstilsynet på Nordvangskolen",
+     "x": "Arbejdstilsynet havde en bemærkning til rør i mælkekælderen; undersøgelse er sat i gang.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1S8_AyNqpK6VypOpiWdaQydtgSwCiLwAH/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-12-10",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Bygningsproblemer og møbelflytning",
+     "x": "Utætte vinduer ved 9. årgang; løse fliser på Ejby meldt til Glostrup Ejendomme; ingen budget til møbelflytning.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1Y0t-Levphq80UmjBnn5Bq2Tb5IHAtw1O/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-11-20",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Byggeaffald og Glostrup Ejendomme",
+     "x": "Udfordring med byggeaffald på Ejbyskolen; overvejes om 1-2 SB-medlemmer skal fokusere på samarbejdet med Glostrup Ejendomme.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1mlk9llSpHgqdDZ0Tf9HcseANtowVOpD9/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "skolevej-ejby",
+   "topic": "skoleveje",
+   "status": "åben",
+   "t": "Sikker skolevej i Ejby",
+   "lead": "Krydset Bjergbakkevej/Statenevej ombygges for 1,5 mio. kr. Delte stier på Ejby Mosevej (4,85 mio. kr.) mangler finansiering.",
+   "events": [
+    {
+     "d": "2026-11-05",
+     "src": "Miljø-, Teknik- og Ejendomsudvalget",
+     "kind": "Orientering",
+     "t": "Ombygning af krydset",
+     "x": "Krydset Bjergbakkevej/Statenevej indsnævres, så det bliver mere overskueligt for skolebørn.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/126304/207228"
+      ]
+     ]
+    },
+    {
+     "d": "2026-06-24",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Sikre skoleveje 2026–2027",
+     "x": "3,5 mio. kr. om året. Krydset ved Ejbyskolen ombygges; skilte og parkeringsforbud. Delte stier på Ejby Mosevej udskudt til budget.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/123101/203141"
+      ]
+     ]
+    },
+    {
+     "d": "2026-04-09",
+     "src": "Miljø-, Teknik- og Ejendomsudvalget",
+     "kind": "Beslutning",
+     "t": "Løsning for Ejbysvinget",
+     "x": "Løsningen skal indgå i prioriteringen af midlerne til sikre skoleveje.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/89397/147217"
+      ]
+     ]
+    },
+    {
+     "d": "2026-01-28",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Medlemsforslag om Ejbysvinget",
+     "x": "Børn fra Ejbysvinget mangler en trafiksikker skolevej. Sendt til Miljø-, Teknik- og Ejendomsudvalget.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/90405/148609"
+      ]
+     ]
+    },
+    {
+     "d": "2026-01-14",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Sikker skolevej: kommunale midler",
+     "x": "Torontoanlæg på Ejby Torvevej vedtaget; parkering ved begge skoler problematisk; hjertezoner inden for 200 m drøftet.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1QH4SEsP4iJqD7Ri-JNH6vrVDXPDSdhRR/view"
+      ]
+     ]
+    },
+    {
+     "d": "2026-01-14",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "SB prioriterer trafikindsatser",
+     "x": "Mangel på lys ved Nordvangs lille skolegård; midler kan bruges til kampagner og trafikpolitik; SB melder prioriteringer tilbage.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1QH4SEsP4iJqD7Ri-JNH6vrVDXPDSdhRR/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-11-04",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Skolepatrulje på Ejby",
+     "x": "Uklart om skolepatrulje etableres; skolen ønsker den, men det kræver fodgængerovergang; meldt tilbage til forvaltningen.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1hUSjtbewncjh8wq4MNiDvUfHtrpZJaM3/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-09-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Torontoanlæg ved gadekæret i Ejby",
+     "x": "Af resterende 211.800 kr. til sikre skoleveje besluttes et torontoanlæg med fodgængerfelt ved gadekæret.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1BkyLUyezBYu8PedT2F0RAwXykRqTDqvO/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-05-19",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Trafiksikkerhed ved Ejbyskolen",
+     "x": "Rundering med kommunen; ønskeliste afleveret, fysisk blokering af p-pladser med gule streger foreslået, skolepatrulje drøftet.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/13acRwsuqTh1-me2yQWknuBh_pGtn2FgR/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-11-20",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Trafikkryds i Ejby",
+     "x": "Økonomien til etablering af trafikkryds i Ejby er undersøgt; endnu ingen afklaring.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1mlk9llSpHgqdDZ0Tf9HcseANtowVOpD9/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-10-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Restpulje til trafiksikkerhed i Ejby",
+     "x": "SB har sendt forslag til brug af restpuljen; involveringsproces følger, når trafiksikkerhedsplanen er vedtaget.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1SiiOXSrFxVqhgRB6Emc0iKbpCERpvMGa/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-09-16",
+     "src": "Skolebestyrelsen",
+     "kind": "Høringssvar",
+     "t": "Høringssvar til trafiksikkerhedsplan",
+     "x": "Svar godkendt; tilføjer manglende skilt om venstresvingsforbud til kl. 8:10 ved Nordvangskolens p-plads og sikker skolevej i Ejby.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1RUvdlHW_4YJo62J3y5JXN_9-YGca3_n2/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mobilpolitik",
+   "topic": "mobil",
+   "status": "åben",
+   "t": "Mobil- og skærmpolitik",
+   "lead": "Bestyrelsen arbejder på en politik med regler pr. afdeling. Elever og kontaktforældre er hørt.",
+   "events": [
+    {
+     "d": "2026-01-14",
+     "src": "Skolebestyrelsen",
+     "kind": "Udsat",
+     "t": "Forårets prioriteringer udskudt",
+     "x": "Beslutning om arbejdet med de seks punkter, bl.a. ordensregler og mobilpolitik, udskudt til næste møde.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1QH4SEsP4iJqD7Ri-JNH6vrVDXPDSdhRR/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-12-02",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Prioriteringer for foråret",
+     "x": "Ordensregler med mobilpolitik, igangværende principper, rundering på lokaler, trafikpolitik, to- eller tredelt skole og overgange.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1PA1t-teimXafNjzsXalZOWzrmMdzFUUi/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-11-04",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Elever vil have mobil i 12-pausen",
+     "x": "Få aktiviteter giver ønske om mobil i pausen; SB ønsker elevernes input til alternative pauseaktiviteter.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1hUSjtbewncjh8wq4MNiDvUfHtrpZJaM3/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-09-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Retning for mobil- og skærmpolitik",
+     "x": "Mobil og skærm håndteres hver for sig med regler pr. afdeling; digitale enheder skal fremme undervisning eller dannelse; elever høres.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1BkyLUyezBYu8PedT2F0RAwXykRqTDqvO/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-08-12",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Mobil- og skærmpolitik",
+     "x": "Mobil- og skærmpolitikken drøftes på det fælles kontaktforældremøde, hvor kontaktforældre giver input.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/18y9Q-yTGTe4GpJAIilz73HhaaVGfQrrR/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-06-17",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Kontaktforældremøde om skærmpolitik",
+     "x": "Fælles kontaktforældremøde i september med skærmpolitik og kontaktforældrerollen som tema.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1wYwHEEUe6PcV9aL0oQ1hsD3x-92khMgr/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-01-14",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Status på fokusområder",
+     "x": "Organisering: klassedannelse og -sammenlægning; trivsel: ordensregler og mobilpolitik; skole-hjem: revision af kontaktforældrefolder.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1S8_AyNqpK6VypOpiWdaQydtgSwCiLwAH/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-09-16",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Elevrådets ønsker",
+     "x": "Elevrådet ønsker mobiler i pauserne, kortere skoledage i udskolingen, flere vandposter, bedre toiletter og flere opladere.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1RUvdlHW_4YJo62J3y5JXN_9-YGca3_n2/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chromebooks",
+   "topic": "mobil",
+   "status": "afgjort",
+   "t": "Chromebooks og data",
+   "lead": "Kommunen følger Datatilsynets anvisninger. Sagen er lukket for nu.",
+   "events": [
+    {
+     "d": "2025-04-24",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Chromebook-sagen lukket",
+     "x": "Kommunen følger Datatilsynets anvisninger med nye Google-kontrakter og justeret opsætning; sagen er lukket for nuværende.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1n53TvLaMS_t_TL7Eg1Jbrafa7l3PQP_P/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-02-12",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Chromebooks",
+     "x": "Skolen holder fast i rammen for brug af chromebooks; forældrenes spørgsmål sendt til forvaltningen, som inviteres til SB.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1nf9dLa0dL8XLueKdVJzBPHhvU65MjhQ6/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sfo-maal",
+   "topic": "sfo",
+   "status": "afgjort",
+   "t": "Mål og indhold for SFO og klub",
+   "lead": "Mål- og indholdsbeskrivelsen er godkendt. Bestyrelsen pegede på for små rammer i Klub Granskoven.",
+   "events": [
+    {
+     "d": "2025-02-26",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Godkendt",
+     "x": "Mål- og indholdsbeskrivelse for SFO og Klub godkendt.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/94437/154417"
+      ]
+     ]
+    },
+    {
+     "d": "2025-02-05",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Anbefaling",
+     "t": "Mål- og indholdsbeskrivelse anbefalet",
+     "x": "Høringssvarene roser beskrivelsen; få justeringer. Nordvang/Ejbys MED-høringssvar som bilag.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/94437/154417"
+      ],
+      [
+       "MED-høringssvar (PDF)",
+       "https://dagsorden.glostrup.dk/meeting/attachment/186377"
+      ]
+     ]
+    },
+    {
+     "d": "2024-11-20",
+     "src": "Skolebestyrelsen",
+     "kind": "Høringssvar",
+     "t": "Høringssvar om mål for SFO og klub",
+     "x": "Svaret påpeger utilstrækkelige fysiske rammer i Klub Granskoven og ønsker evaluering inden for 1-2 år.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1mlk9llSpHgqdDZ0Tf9HcseANtowVOpD9/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sfo-drift",
+   "topic": "sfo",
+   "status": "åben",
+   "t": "SFO på Nordvang og Ejby",
+   "lead": "Ny takst for SFO I i budget 2027. Bestyrelsen ønsker oplæg om den længere åbningstid.",
+   "events": [
+    {
+     "d": "2026-10-07",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Budget 2027: lavere SFO-takst",
+     "x": "Budgetaftalen foreslår SFO I sænket fra 1.958 til 1.709 kr. om måneden og minimumsnormering i tidlig skolestart.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/125677/206397"
+      ]
+     ]
+    },
+    {
+     "d": "2025-11-04",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Kvalitetsprogrammet og SFO-åbningstid",
+     "x": "Ønske om oplæg fra skoleledelsen om timeplan, fag, valgfag og den øgede åbningstid i SFO.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1hUSjtbewncjh8wq4MNiDvUfHtrpZJaM3/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-03-18",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Timefordelingsplan 25/26",
+     "x": "Oplægget gennemgået; SB ønsker oplæg om pædagogikken ved øget SFO-åbningstid og om delelokaler.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1FKHqQfEjiwsc0Ti8oDwhIZEDIc4GdYoV/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-10-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Bekymring om SFO på Nordvangskolen",
+     "x": "Skolelederen orienterede om tiltag og proces vedrørende bekymring for SFO'en på Nordvangskolen.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1SiiOXSrFxVqhgRB6Emc0iKbpCERpvMGa/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-10-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Klubtildeling uændret",
+     "x": "Forslaget om tildeling til klub på baggrund af fremmøde er taget ud af det endelige budget; modellen er uændret.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1SiiOXSrFxVqhgRB6Emc0iKbpCERpvMGa/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-09-16",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Sygdom og lukkeuger i SFO Nordvang",
+     "x": "SFO Nordvang har været ramt af sygdom og af dækning som følge af lukkeugerne.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1RUvdlHW_4YJo62J3y5JXN_9-YGca3_n2/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "budget",
+   "topic": "oekonomi",
+   "status": "afgjort",
+   "t": "Skolens budget og bestyrelsens ønsker",
+   "lead": "Bestyrelsen har prioriteret lejrskoler, fysik/kemi, vedligehold, lokal pedel og kapacitet.",
+   "events": [
+    {
+     "d": "2026-10-07",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Budget 2027–2030 vedtaget",
+     "x": "Anden behandling af budgettet med ændringsforslag.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/125677/206397"
+      ]
+     ]
+    },
+    {
+     "d": "2025-12-02",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Forventet årsresultat",
+     "x": "Forventet lille overskud eller nul; skolen vil overføre penge til indkøb af ny hest til Klub Ejby.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1PA1t-teimXafNjzsXalZOWzrmMdzFUUi/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-09-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Høringssvar",
+     "t": "Høringssvar til budget godkendt",
+     "x": "Godkendt med tilføjelse om, at økonomien til faglokaler ikke står mål med behovet.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1BkyLUyezBYu8PedT2F0RAwXykRqTDqvO/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-06-17",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Ønsker til budget 2026",
+     "x": "Prioriteter: lejrskoler, fysik/kemilokale, energioptimering, indvendig vedligehold, lokal pedel og kapacitet; formanden laver oplæg til politikerne.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1wYwHEEUe6PcV9aL0oQ1hsD3x-92khMgr/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-04-24",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Budget 2025 godkendt",
+     "x": "Vikarbudget opjusteret og souschef oprettet, finansieret fra \"undervisning og anden undervisning\"; budgettet godkendt.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1n53TvLaMS_t_TL7Eg1Jbrafa7l3PQP_P/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-01-14",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Foreslåede besparelser",
+     "x": "Formanden har koordineret med de andre skolebestyrelser; forslaget er sendt til Økonomiudvalget uden indstilling.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1S8_AyNqpK6VypOpiWdaQydtgSwCiLwAH/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-11-20",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Oplæg om skoleøkonomi",
+     "x": "Ca. 95 % af budgettet er løn; SB's råderum er øvrig undervisning og drift; budget godkendes i marts.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1mlk9llSpHgqdDZ0Tf9HcseANtowVOpD9/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-11-11",
+     "src": "Skolebestyrelsen",
+     "kind": "Høringssvar",
+     "t": "Høringssvar om tildelingsmodel",
+     "x": "SB anbefaler ikke barselsmodellen, ønsker hurtig evaluering og ingen udligning mellem skolerne på baggrund af socioøkonomi.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/13BcSUK_mAKIQJdwBgNj2bbHgtFm0qoSE/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-09-16",
+     "src": "Skolebestyrelsen",
+     "kind": "Høringssvar",
+     "t": "Høringssvar til budget 2025",
+     "x": "Svaret påpeger manglende administrationsmidler, skønt skolen er vokset fra 4 til 10 klasser, og uafklarede SFO-lukkeuger efter 2-årig prøveperiode.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1RUvdlHW_4YJo62J3y5JXN_9-YGca3_n2/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "special",
+   "topic": "special",
+   "status": "åben",
+   "t": "Specialområdet",
+   "lead": "Kapaciteten på Leragergård er udvidet, og C-sporet er flyttet organisatorisk. Status gives løbende.",
+   "events": [
+    {
+     "d": "2026-10-21",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Orientering",
+     "t": "Status efter augustvisitationen",
+     "x": "Kvartalsvis opfølgning på specialundervisningsområdet.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/125864/206740"
+      ]
+     ]
+    },
+    {
+     "d": "2026-06-24",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "C-sporet flyttes organisatorisk",
+     "x": "Fra Vestervangskolen til Specialområde Glostrup. Bliver fysisk på Vestervang.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/123101/203161"
+      ]
+     ]
+    },
+    {
+     "d": "2026-03-25",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Mere plads på Leragergård",
+     "x": "Ikke plads til alle skolestartere i de eksisterende tilbud. Kapaciteten udvides.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/89633/147609"
+      ]
+     ]
+    },
+    {
+     "d": "2025-01-14",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Brug af inklusionsressourcer",
+     "x": "Skolelederen orienterede om, hvad inklusionsressourcerne anvendes til.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1S8_AyNqpK6VypOpiWdaQydtgSwCiLwAH/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vikarer-data",
+   "topic": "trivsel",
+   "status": "åben",
+   "t": "Vikarer og data om skolen",
+   "lead": "Udvalget vil have faste data om skolerne. Rammen er udsat, til ny direktør er ansat.",
+   "events": [
+    {
+     "d": "2026-08-12",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Udsat",
+     "t": "Ramme for datarapportering",
+     "x": "Udsat, indtil ny direktør er ansat.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/123611/203747"
+      ]
+     ]
+    },
+    {
+     "d": "2026-04-08",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Orientering",
+     "t": "Vikarforbrug på skolerne",
+     "x": "Halvårlig oversigt. Udvalget beder om en sag om, hvordan de løbende får data om skolerne.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/89449/147281"
+      ]
+     ]
+    },
+    {
+     "d": "2025-03-18",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Aflysning af timer i udskolingen",
+     "x": "SB overvejer aflysning af lektioner i udskolingen, når en vikar ikke kan gennemføre fx faglokaleundervisning; evalueres i elevrådet.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1FKHqQfEjiwsc0Ti8oDwhIZEDIc4GdYoV/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-12-10",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Vikarforbrug 3. kvartal",
+     "x": "Vikarforbrug fremlagt med årsager som sygdom, kurser, ture og seniordage; ledelsens princip for vikardækning præsenteret.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1Y0t-Levphq80UmjBnn5Bq2Tb5IHAtw1O/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-12-10",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Årlige måltal",
+     "x": "Trivslen er generelt faldende på linje med Vestegnen, social trivsel steget; drøftelse af at løfte afgangsprøveresultater.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1Y0t-Levphq80UmjBnn5Bq2Tb5IHAtw1O/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trivselsprincip",
+   "topic": "trivsel",
+   "status": "åben",
+   "t": "Principper for trivsel og skole-hjem",
+   "lead": "Skole-hjem-principper er klar til vedtagelse. Trivselsprincipper drøftes med medarbejdere og elevråd.",
+   "events": [
+    {
+     "d": "2025-12-02",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Principper for trivsel og skole-hjem",
+     "x": "Trivselsprincipper drøftes med medarbejdere og elevråd; skole-hjem-principper til endelig vedtagelse på næste møde.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1PA1t-teimXafNjzsXalZOWzrmMdzFUUi/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-09-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Principper for trivsel",
+     "x": "Drøftelse af, hvad principper for trivsel kan indeholde; udkastet bearbejdes videre.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1BkyLUyezBYu8PedT2F0RAwXykRqTDqvO/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-08-12",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Status på indsatsområder",
+     "x": "Udkast til trivselsprincip på vej, så SB kan føre tilsyn; SB er optaget af sygefravær; trafikspørgsmål sendt til Glostrup Ejendomme.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/18y9Q-yTGTe4GpJAIilz73HhaaVGfQrrR/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-04-24",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Princip for klassedannelse vedtaget",
+     "x": "Princippet, bygget op om det generelle og det specifikke, er vedtaget med mindre justeringer.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1n53TvLaMS_t_TL7Eg1Jbrafa7l3PQP_P/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-04-24",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Kommunikationsprincipper vedtaget",
+     "x": "Kommunikationsprincipperne er vedtaget.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1n53TvLaMS_t_TL7Eg1Jbrafa7l3PQP_P/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-10-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Status på principarbejdet",
+     "x": "Trivselsgruppen anbefaler, at ordensreglerne behandles først; skole-hjem-gruppen er klar; organisering ses på af formand og skoleleder.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1SiiOXSrFxVqhgRB6Emc0iKbpCERpvMGa/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-09-16",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Arbejdsgrupper for nye principper",
+     "x": "Tre grupper nedsat: trivsel, skole-hjem-samarbejde og skolens organisering; udkast til principper efter 4-5 måneder.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1RUvdlHW_4YJo62J3y5JXN_9-YGca3_n2/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "skolemad",
+   "topic": "trivsel",
+   "status": "afgjort",
+   "t": "Skolemad",
+   "lead": "Nordvang kom ikke med i det nationale forsøg, men har sit eget projekt.",
+   "events": [
+    {
+     "d": "2026-05-06",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Orientering",
+     "t": "Status på skolemadsforsøg",
+     "x": "Nationalt forsøg 2026–2028 med tre modeller for betaling.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/121885/201257"
+      ]
+     ]
+    },
+    {
+     "d": "2025-11-04",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Skolemadsprojekt i gang",
+     "x": "Skolen er i fuld gang med et omfattende projekt om skolemad.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1hUSjtbewncjh8wq4MNiDvUfHtrpZJaM3/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-06-17",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Ikke med i skolemadsforsøg",
+     "x": "Nordvangskolen søgte om at komme med i Skolemadsforsøget, men blev ikke udvalgt.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1wYwHEEUe6PcV9aL0oQ1hsD3x-92khMgr/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "valg-sb",
+   "topic": "bestyrelse",
+   "status": "afgjort",
+   "t": "Valg til skolebestyrelsen 2026",
+   "lead": "Nye regler for valg af forældrerepræsentanter er godkendt. Ny bestyrelse fra skoleåret 2026/27.",
+   "events": [
+    {
+     "d": "2026-01-07",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Orientering",
+     "t": "Justerede valgregler",
+     "x": "Regler fastsat af skoledirektøren og godkendt af alle skolebestyrelser.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/90617/148873"
+      ]
+     ]
+    },
+    {
+     "d": "2025-11-04",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Nye valgregler godkendt",
+     "x": "Nye regler for valg af forældrerepræsentanter til SB er godkendt.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1hUSjtbewncjh8wq4MNiDvUfHtrpZJaM3/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-09-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Nye regler for valg til SB",
+     "x": "Kommunens forslag til valgregler for forældrerepræsentanter behandlet; der skrives svar, og fælles ramme for forårets valg drøftes.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1BkyLUyezBYu8PedT2F0RAwXykRqTDqvO/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-06-17",
+     "src": "Skolebestyrelsen",
+     "kind": "Drøftet",
+     "t": "Valg til skolebestyrelse 2026",
+     "x": "Valg i foråret 2026, ny bestyrelse fra skoleåret 26/27; suppleringsvalg drøftes efter sommerferien.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1wYwHEEUe6PcV9aL0oQ1hsD3x-92khMgr/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vederlag",
+   "topic": "bestyrelse",
+   "status": "åben",
+   "t": "Vederlag til skolebestyrelsen",
+   "lead": "Bestyrelsen ønsker vederlag, når pengene ikke kan gå til skolen. Personaleafdelingen er kontaktet.",
+   "events": [
+    {
+     "d": "2025-12-02",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "SB ønsker vederlag",
+     "x": "Når pengene ikke kan tilfalde skolen, ønsker SB at få vederlag; personaleafdelingen kontaktes.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1PA1t-teimXafNjzsXalZOWzrmMdzFUUi/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-11-04",
+     "src": "Skolebestyrelsen",
+     "kind": "Udsat",
+     "t": "Vederlag til SB",
+     "x": "Orientering om vederlag; sættes på næste møde som beslutningspunkt.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1hUSjtbewncjh8wq4MNiDvUfHtrpZJaM3/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-10-22",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Vederlag til SB-medlemmer",
+     "x": "Vederlag gives kun, hvis det ikke tages fra skolens budget; skolelederen undersøger finansieringen.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1SiiOXSrFxVqhgRB6Emc0iKbpCERpvMGa/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dialog",
+   "topic": "bestyrelse",
+   "status": "åben",
+   "t": "Dialog med politikerne",
+   "lead": "Valgmøde på Nordvang før kommunalvalget. Dialogmøde med udvalget 9. november 2026.",
+   "events": [
+    {
+     "d": "2026-11-09",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Kommende",
+     "t": "Dialogmøde med skolebestyrelserne",
+     "x": "Tema: skolernes egen identitet og udvikling og dialogen med udvalget.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207528"
+      ]
+     ]
+    },
+    {
+     "d": "2025-11-04",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Valgmøde på Nordvangskolen",
+     "x": "Valgmøde med alle politikere inviteret; positiv feedback på afholdelsen.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1hUSjtbewncjh8wq4MNiDvUfHtrpZJaM3/view"
+      ]
+     ]
+    },
+    {
+     "d": "2025-02-12",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Fælles møde med politikere før valget",
+     "x": "Formanden undersøger interessen hos de øvrige skolebestyrelser for et fælles møde med politikerne før kommunalvalget.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1nf9dLa0dL8XLueKdVJzBPHhvU65MjhQ6/view"
+      ]
+     ]
+    },
+    {
+     "d": "2024-08-15",
+     "src": "Skolebestyrelsen",
+     "kind": "Besluttet",
+     "t": "Bestyrelsen konstitueret",
+     "x": "Formand og næstformand valgt; SB anmoder om, at et medlem fra BSU deltager i møderne.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1wTpti6snhNOSkoKgUDtJNk0lmrHO4C3-/view"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

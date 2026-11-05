@@ -4,8 +4,9 @@ Repoet er en oversigt over politiske sager i Glostrup Kommune, der berører Nord
 
 ## Filer
 
-- `README.md` er kilden til hele oversigten. Ret kun indhold her.
+- `README.md` er kilden til forsiden (Overblik).
 - `index.html` er GitHub Pages-siden. Den bygges med `python3 scripts/byg_side.py` og må aldrig redigeres i hånden.
+- `sager/` og `kilder/` bygges fra `data/sager.json` og `data/links.json` med `python3 scripts/byg_sager.py`. Ret aldrig de byggede filer i hånden.
 - `scripts/hent_sager.py` henter skolerelevante punkter fra Åben Dagsorden (`https://dagsorden.glostrup.dk`).
 - Den fulde arbejdsgang står i `.claude/skills/opdater-skolesager/SKILL.md`. Læs den, før du opdaterer oversigten, og følg den.
 
@@ -19,7 +20,8 @@ Repoet er en oversigt over politiske sager i Glostrup Kommune, der berører Nord
 5. Afsnit i fast rækkefølge: Kommende møder, Åbne sager, Afgjorte sager, Bidrag. Nyeste dato øverst i hver tabel.
 6. Række-format: dato `DD-MM-ÅÅÅÅ` linket til mødet (`https://dagsorden.glostrup.dk/meeting/<id>`), sagstitel linket til punktet (`https://dagsorden.glostrup.dk/meeting/agendaitem/print/<a>/<b>`), "Kort" på højst ca. 20 ord med tal og enheder. Åbne sager har også kolonnen "Mangler".
 7. Skriv kun fakta, der står i punktet. Alle kilder er links.
-8. Opdatér datoen i "Opdateret …", kør `python3 scripts/byg_side.py`, og commit `README.md` og `index.html` sammen.
+8. Tilføj hvert nyt punkt som hændelse i den rette sag i `data/sager.json` (se trin 4 i skillen), og opdatér sagens status og lead.
+9. Opdatér datoen i "Opdateret …", kør `python3 scripts/byg_side.py` og `python3 scripts/byg_sager.py`, og commit data og byggede filer sammen.
 
 ## Pull request
 
