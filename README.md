@@ -60,6 +60,6 @@ Siden bygges fra filerne i dette repo, og alle kan foreslå rettelser og nye sag
 - **Sager efter tema** og **Kilder og links** bygges fra `data/sager.json` og `data/links.json`.
 - Byg siderne igen med `python3 scripts/byg_side.py` og `python3 scripts/byg_sager.py`, og commit både data og de byggede filer.
 
-Med Claude Code: åbn repoet og skriv "opdater oversigten". Skillen [opdater-skolesager](https://github.com/duemunk/glostrup-skolesager/blob/main/.claude/skills/opdater-skolesager/SKILL.md) guider resten. Med GitHub Copilot: opret en issue fra skabelonen "Opdater oversigten" og tildel den til Copilot.
+Med Claude Code: åbn repoet og skriv "opdater oversigten". Skillen [opdater-skolesager](https://github.com/duemunk/nordvang-ejby/blob/main/.claude/skills/opdater-skolesager/SKILL.md) guider resten. Med GitHub Copilot: opret en issue fra skabelonen "Opdater oversigten" og tildel den til Copilot.
 
 Har du ikke skriveadgang, så fork repoet og opret en pull request derfra. Spørgsmål kan stilles som en issue.

@@ -80,6 +80,6 @@ python3 scripts/byg_sager.py
 Commit data og de byggede filer sammen (`README.md`, `index.html`, `data/`, `sager/`, `kilder/`) med en kort dansk overskrift, fx "Tilføj referat fra Børne- og Skoleudvalget 02-12-2026".
 
 - Har du skriveadgang: lav en branch og en pull request med `gh pr create`.
-- Ellers: fork repoet (`gh repo fork --remote`), push til din fork, og opret pull request mod `duemunk/glostrup-skolesager`.
+- Ellers: fork repoet (`gh repo fork --remote`), push til din fork, og opret pull request mod `duemunk/nordvang-ejby`.
 
 Skriv i pull requestens beskrivelse, hvilke sager der er tilføjet, flyttet eller rettet, med links.

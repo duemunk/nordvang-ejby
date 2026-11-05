@@ -6,7 +6,7 @@ skrift følger Nordvang-/Ejbyskolens visuelle identitet.
 
 import html
 
-BASE_URL = "https://duemunk.github.io/glostrup-skolesager/"
+BASE_URL = "https://duemunk.github.io/nordvang-ejby/"
 
 TABS = [("", "Overblik"), ("sager/", "Sager"), ("kilder/", "Kilder og links")]
 
@@ -76,7 +76,7 @@ def build_header(active, prefix):
 FOOTER = (
     '<footer>Kilde: <a href="https://dagsorden.glostrup.dk/">Åben Dagsorden, Glostrup Kommune</a>'
     " · Ikke en officiel side · "
-    '<a href="https://github.com/duemunk/glostrup-skolesager">Ret eller tilføj på GitHub</a></footer>'
+    '<a href="https://github.com/duemunk/nordvang-ejby">Ret eller tilføj på GitHub</a></footer>'
 )
 
 

@@ -1,7 +1,7 @@
 import json, re, html, urllib.request, urllib.parse
 BASE = "https://dagsorden.glostrup.dk"
 def get(u):
-    return urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "glostrup-skolesager"}), timeout=60).read().decode("utf-8")
+    return urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "nordvang-ejby"}), timeout=60).read().decode("utf-8")
 meetings = {}
 for q in ["høringssvar", "høring", "skolebestyrelse", "skolebestyrelserne", "Nordvang", "Ejby"]:
     r = json.loads(get(f"{BASE}/rest/meeting/search?" + urllib.parse.urlencode({"query": q, "fromDate": "01/08/2024"})))

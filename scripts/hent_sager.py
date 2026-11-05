@@ -38,7 +38,7 @@ GENERIC_TITLE = re.compile(r"Orientering fra (administrationen|formanden)|bestyr
 
 
 def get(url):
-    request = urllib.request.Request(url, headers={"User-Agent": "glostrup-skolesager"})
+    request = urllib.request.Request(url, headers={"User-Agent": "nordvang-ejby"})
     with urllib.request.urlopen(request, timeout=60) as response:
         return response.read().decode("utf-8")
 
