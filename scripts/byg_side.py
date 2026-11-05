@@ -63,7 +63,7 @@ footer { margin-top:40px; padding-top:8px; border-top:1px solid var(--line); col
 <main>
 {content}
 </main>
-<footer>Samlet fra <a href="https://dagsorden.glostrup.dk/">Åben Dagsorden, Glostrup Kommune</a>. Ikke en officiel kommunal side. <a href="https://github.com/duemunk/glostrup-skolesager">Kilde og bidrag på GitHub</a>.</footer>
+<footer>Kilde: <a href="https://dagsorden.glostrup.dk/">Åben Dagsorden, Glostrup Kommune</a> · Ikke en officiel side · <a href="https://github.com/duemunk/glostrup-skolesager">Ret eller tilføj på GitHub</a></footer>
 </div>
 </body>
 </html>

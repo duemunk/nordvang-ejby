@@ -2,7 +2,7 @@
 
 Opdateret 05-11-2026.
 
-Sager fra alle udvalg i Glostrup Kommune, der berører skolerne – med fokus på Nordvangskolen og afdeling Ejby. Nyeste først. Datoer linker til mødet, sager til punktet. Kilde: [Åben Dagsorden](https://dagsorden.glostrup.dk/). Læs som side: [duemunk.github.io/glostrup-skolesager](https://duemunk.github.io/glostrup-skolesager/).
+Politiske sager, der rammer Nordvang og Ejby – fra alle udvalg i Glostrup Kommune. Nyeste først. Dato fører til mødet, sag til punktet.
 
 ## Kommende møder
 
