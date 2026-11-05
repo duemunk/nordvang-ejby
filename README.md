@@ -2,7 +2,7 @@
 
 Opdateret 05-11-2026.
 
-Sager fra alle udvalg i Glostrup Kommune, der berører skolerne – med fokus på Nordvangskolen og afdeling Ejby. Nyeste først. Datoer linker til mødet, sager til punktet. Kilde: [Åben Dagsorden](https://dagsorden.glostrup.dk/).
+Sager fra alle udvalg i Glostrup Kommune, der berører skolerne – med fokus på Nordvangskolen og afdeling Ejby. Nyeste først. Datoer linker til mødet, sager til punktet. Kilde: [Åben Dagsorden](https://dagsorden.glostrup.dk/). Læs som side: [duemunk.github.io/glostrup-skolesager](https://duemunk.github.io/glostrup-skolesager/).
 
 ## Kommende møder
 
@@ -51,3 +51,7 @@ Referat med endelig beslutning.
 | [28-01-2026](https://dagsorden.glostrup.dk/meeting/4012) | Kommunalbestyrelsen | [SFO Broholm bliver klasselokale](https://dagsorden.glostrup.dk/meeting/agendaitem/print/90405/148577) | Ombygning godkendt; forvaltningen skal fremlægge en pavillonløsning. |
 | [28-01-2026](https://dagsorden.glostrup.dk/meeting/4012) | Kommunalbestyrelsen | [Sikker skolevej i Ejby (medlemsforslag)](https://dagsorden.glostrup.dk/meeting/agendaitem/print/90405/148609) | Sendt videre til Miljø-, Teknik- og Ejendomsudvalget. |
 | [07-01-2026](https://dagsorden.glostrup.dk/meeting/3980) | Børne- og Skoleudvalget | [Valg af forældrerepræsentanter](https://dagsorden.glostrup.dk/meeting/agendaitem/print/90617/148873) | Nye valgregler for skolebestyrelserne. Til orientering. |
+
+## Bidrag
+
+Rettelser og nye sager er velkomne som pull request på [GitHub](https://github.com/duemunk/glostrup-skolesager). Med Claude Code: åbn repoet og skriv "opdater oversigten" – skillen [opdater-skolesager](https://github.com/duemunk/glostrup-skolesager/blob/main/.claude/skills/opdater-skolesager/SKILL.md) guider resten.
