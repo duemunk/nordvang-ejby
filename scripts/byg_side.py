@@ -25,6 +25,7 @@ TEMPLATE = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Skolesager i Glostrup – Nordvang/Ejby</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
 <style>
 :root { --navy:#0b1f5a; --ink:#17203a; --grey:#5b6482; --yellow:#f2a826; --line:#dcd8cc; --paper:#fff; --tint:#f6f4ee; --font:"Source Sans 3","Source Sans Pro",system-ui,sans-serif; }
