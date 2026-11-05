@@ -26,6 +26,17 @@ TEMPLATE = """<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Skolesager i Glostrup – Nordvang/Ejby</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="description" content="Politiske sager, der rammer Nordvang og Ejby – fra alle udvalg i Glostrup Kommune.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="da_DK">
+<meta property="og:title" content="Skolesager i Glostrup – Nordvang/Ejby">
+<meta property="og:description" content="Kommende møder, åbne og afgjorte sager fra alle udvalg i Glostrup Kommune.">
+<meta property="og:url" content="https://duemunk.github.io/glostrup-skolesager/">
+<meta property="og:image" content="https://duemunk.github.io/glostrup-skolesager/delingsbillede.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Nordvang-/Ejbyskolens logo og teksten Skolesager i Glostrup">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
 <style>
 :root { --navy:#0b1f5a; --ink:#17203a; --grey:#5b6482; --yellow:#f2a826; --line:#dcd8cc; --paper:#fff; --tint:#f6f4ee; --font:"Source Sans 3","Source Sans Pro",system-ui,sans-serif; }
