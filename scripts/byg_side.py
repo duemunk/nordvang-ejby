@@ -9,6 +9,7 @@ hver ændring i README.md og commit begge filer. Kun standardbiblioteket bruges.
 """
 
 import html
+import json
 import re
 from pathlib import Path
 
@@ -32,6 +33,7 @@ table { border-collapse:collapse; width:100%; font-size:16px; }
 th { text-align:left; font-weight:600; color:var(--grey); border-bottom:2px solid var(--line); padding:6px 10px; white-space:nowrap; }
 td { vertical-align:top; border-bottom:1px solid var(--line); padding:8px 10px; }
 td:first-child { white-space:nowrap; font-variant-numeric:tabular-nums; }
+a.tidslinje { display:inline-block; margin-top:4px; font-weight:600; font-size:15px; }
 .aabne td:first-child { box-shadow:inset 3px 0 0 var(--yellow); }
 tbody tr.group-start:not(:first-child) td { border-top:2px solid var(--line); }
 tr.repeat td { border-top:0; }
@@ -51,6 +53,7 @@ tr.repeat td.meta a { visibility:hidden; }
   td.meta + td.meta::before { content:" · "; }
   td.title { margin-top:2px; font-weight:600; }
   td.body { margin-top:2px; }
+  a.tidslinje { padding:13px 0 9px; margin-top:0; }
   td.labelled { margin-top:4px; color:var(--grey); font-size:15px; }
   td.labelled::before { content:attr(data-label) ": "; font-weight:600; }
   .aabne tr { padding-left:12px; box-shadow:inset 3px 0 0 var(--yellow); }
@@ -80,7 +83,27 @@ def cells(line):
 CELL_ROLES = {"Dato": "meta", "Udvalg": "meta", "Sag": "title", "Møde": "title", "Mangler": "labelled"}
 
 
-def render_table(lines):
+def build_cases_by_url():
+    data = json.loads((ROOT / "data" / "sager.json").read_text(encoding="utf-8"))
+    cases_by_url = {}
+    for case in data["sager"]:
+        for event in case["events"]:
+            for _, url in event["links"]:
+                cases_by_url.setdefault(url, []).append(case)
+    return cases_by_url
+
+
+def find_case(title_markdown, cases_by_url):
+    words = set(re.findall(r"[\wæøå/.-]{3,}", title_markdown.lower()))
+    candidates = []
+    for url in re.findall(r"\]\((https://[^)\s]+/agendaitem/[^)\s]+)\)", title_markdown):
+        candidates += cases_by_url.get(url, [])
+    if not candidates:
+        return None
+    return max(candidates, key=lambda case: len(words & set(re.findall(r"[\wæøå/.-]{3,}", case["t"].lower()))))
+
+
+def render_table(lines, cases_by_url):
     head = cells(lines[0])
     rows = [cells(line) for line in lines[2:]]
     roles = [CELL_ROLES.get(h, "body") for h in head]
@@ -92,11 +115,15 @@ def render_table(lines):
         key = tuple(c for c, role in zip(row, roles) if role == "meta")
         group_class = "repeat" if key and key == previous_key else "group-start"
         previous_key = key
+        title_markdown = " ".join(c for c, role in zip(row, roles) if role == "title")
+        case = find_case(title_markdown, cases_by_url)
+        timeline_link = f'<br><a class="tidslinje" href="sager/{case["id"]}.html">Tidslinje ›</a>' if case else ""
+        body_index = roles.index("body") if "body" in roles else len(row) - 1
         out.append(
             f'<tr class="{group_class}">'
             + "".join(
-                f'<td class="{role}" data-label="{html.escape(label)}">{inline(c)}</td>'
-                for c, role, label in zip(row, roles, head)
+                f'<td class="{role}" data-label="{html.escape(label)}">{inline(c)}{timeline_link if index == body_index else ""}</td>'
+                for index, (c, role, label) in enumerate(zip(row, roles, head))
             )
             + "</tr>"
         )
@@ -107,7 +134,7 @@ def render_table(lines):
 GITHUB_ONLY_SECTIONS = {"Bidrag"}
 
 
-def render(markdown):
+def render(markdown, cases_by_url):
     blocks = re.split(r"\n\s*\n", markdown.strip())
     out = []
     section_open = False
@@ -136,7 +163,7 @@ def render(markdown):
         if first.startswith("# "):
             out.append(f"<h1>{inline(first[2:].strip())}</h1>")
         elif first.startswith("|") and len(lines) > 1 and re.match(r"^\|?\s*:?-", lines[1]):
-            out.append(render_table(lines))
+            out.append(render_table(lines, cases_by_url))
         else:
             out.append(f"<p>{inline(' '.join(l.strip() for l in lines))}</p>")
     if section_open:
@@ -153,7 +180,7 @@ def main():
         prefix="",
         active="",
         css=PAGE_CSS,
-        content=render(markdown),
+        content=render(markdown, build_cases_by_url()),
         share_description="Kommende møder, åbne og afgjorte sager fra alle udvalg i Glostrup Kommune.",
     )
     (ROOT / "index.html").write_text(page, encoding="utf-8")
