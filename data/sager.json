@@ -1,5 +1,5 @@
 {
- "opdateret": "2026-11-05",
+ "opdateret": "2026-11-06",
  "referater_fra_til": [
   "2024-08-15",
   "2026-01-14"
@@ -59,7 +59,7 @@
      "links": [
       [
        "Åben Dagsorden",
-       "https://dagsorden.glostrup.dk/"
+       "https://dagsorden.glostrup.dk/meeting/4492"
       ]
      ]
     },
@@ -1329,8 +1329,34 @@
    "topic": "special",
    "status": "åben",
    "t": "Specialområdet",
-   "lead": "Kapaciteten på Leragergård er udvidet, og C-sporet er flyttet organisatorisk. Status gives løbende.",
+   "lead": "Skolerne udvikler mellemformer inden for skolerammen. Rammeaftalen for specialområdet 2027–2028 afventer Kommunalbestyrelsen.",
    "events": [
+    {
+     "d": "2026-11-04",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Anbefaling",
+     "t": "Rammeaftale 2027–2028 for specialområdet",
+     "x": "Specialundervisningsområdet indgår i rammeaftalen. Udvalget godkendte indstillingen; Kommunalbestyrelsens beslutning afventes.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207548"
+      ]
+     ]
+    },
+    {
+     "d": "2026-11-04",
+     "src": "Børne- og Skoleudvalget",
+     "kind": "Orientering",
+     "t": "Mellemformer på skolerne",
+     "x": "Skolerne arbejder på at udvikle mellemformer inden for rammen af skolen.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207532"
+      ]
+     ]
+    },
     {
      "d": "2026-10-21",
      "src": "Kommunalbestyrelsen",
