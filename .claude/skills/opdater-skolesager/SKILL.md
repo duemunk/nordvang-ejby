@@ -21,7 +21,7 @@ Hvis brugeren har givet et konkret link til et møde eller punkt, så tag udgang
 
 ## 2. Vurder hvert punkt
 
-Medtag et punkt, når det påvirker skolerne – især Nordvangskolen og afdeling Ejby: klasser og distrikter, kapacitet og bygninger, skoleveje, SFO, økonomi og takster, specialområdet, skolebestyrelser, befolkningsprognoser og byggeri i Ejby, der giver flere børn. Spring rene formalia over (godkendelse af dagsorden, mødeplaner) og punkter, der kun nævner "skole" i forbifarten.
+Medtag et punkt, når det påvirker skolerne – især Nordvang/Ejby: klasser og distrikter, kapacitet og bygninger, skoleveje, SFO, økonomi og takster, specialområdet, skolebestyrelser, befolkningsprognoser og byggeri i Ejby, der giver flere børn. Spring rene formalia over (godkendelse af dagsorden, mødeplaner) og punkter, der kun nævner "skole" i forbifarten.
 
 Et punkt er **åbent**, når
 
@@ -35,7 +35,7 @@ Samme sag går ofte gennem fagudvalg → Økonomiudvalget → Kommunalbestyrelse
 
 ## 3. Ret data/overblik.md
 
-Rækkefølgen af afsnit er fast: **Kommende møder**, **Åbne sager**, **Afgjorte sager**. I hver tabel står nyeste dato øverst.
+Rækkefølgen af afsnit er fast: **Kommende møder**, **Åbne sager**, **Afgjorte sager**. Kommende møder står med det første møde øverst. I Åbne og Afgjorte sager står nyeste dato øverst.
 
 - **Dato** `DD-MM-ÅÅÅÅ`, linket til mødet: `[04-11-2026](https://dagsorden.glostrup.dk/meeting/4445)`.
 - **Udvalg** skrevet helt ud, fx "Børne- og Skoleudvalget".
@@ -43,6 +43,8 @@ Rækkefølgen af afsnit er fast: **Kommende møder**, **Åbne sager**, **Afgjort
 - **Kort**: én linje, højst ca. 20 ord, med tal og enheder (mio. kr., elever, klasser) og afstemningstal, hvor de findes. Nævn Nordvang/Ejby, når det er dem, det handler om.
 - **Mangler** (kun i Åbne sager): hvem eller hvad sagen venter på, fx "Kommunalbestyrelsen", "Finansiering".
 - Alle kilder er links. Skriv ikke fakta, du ikke har set i punktet.
+- Skolens bestyrelse hedder altid "skolebestyrelsen" (flertal "skolebestyrelserne") – aldrig "bestyrelsen" eller "skolens bestyrelse".
+- Hele skolen hedder "Nordvang/Ejby". "Nordvang" bruges kun om hovedskolens matrikel og bygninger, "Ejby" kun om afdelingen i Ejby.
 
 Når en åben sag bliver afgjort: flyt rækken fra Åbne sager til Afgjorte sager, opdatér dato, link og Kort til det afgørende møde.
 

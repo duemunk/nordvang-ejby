@@ -93,7 +93,7 @@ def build_overview(data):
     open_count = sum(1 for c in cases if c["status"] == "åben")
     out = [
         "<h1>Sager efter tema</h1>",
-        '<p class="lead">Sager, der rammer Nordvang og Ejby – fra skolebestyrelsen og Glostrup Kommunes udvalg. '
+        '<p class="lead">Sager, der rammer Nordvang/Ejby – fra skolebestyrelsen og Glostrup Kommunes udvalg. '
         "Vælg en sag for at se hele forløbet.</p>",
         f'<div class="summary num"><span>{len(cases)} sager</span><span>{open_count} åbne</span>'
         f'<span>Opdateret {dk(data["opdateret"])}</span></div>',
@@ -162,7 +162,7 @@ def main():
     shutil.rmtree(sager_dir, ignore_errors=True)
     sager_dir.mkdir()
     (sager_dir / "index.html").write_text(
-        build_page("Sager efter tema – Nordvang/Ejby", "Sager om Nordvang og Ejby fra skolebestyrelsen og Glostrup Kommune, samlet efter tema.",
+        build_page("Sager efter tema – Nordvang/Ejby", "Sager om Nordvang/Ejby fra skolebestyrelsen og Glostrup Kommune, samlet efter tema.",
                    "sager/", "../", "sager/", CSS, build_overview(data), footer),
         encoding="utf-8",
     )

@@ -2,15 +2,15 @@
 
 Opdateret 06-11-2026.
 
-Politiske sager, der rammer Nordvang og Ejby – fra alle udvalg i Glostrup Kommune. Nyeste først. Dato fører til mødet, sag til punktet.
+Politiske sager, der rammer Nordvang/Ejby – fra alle udvalg i Glostrup Kommune. Nyeste først. Dato fører til mødet, sag til punktet.
 
 ## Kommende møder
 
 | Dato | Møde | Relevans |
 | --- | --- | --- |
-| 02-12-2026 | [Børne- og Skoleudvalget](https://dagsorden.glostrup.dk/meeting/4461) | Mødet ønskes afholdt på [daginstitutionen Mælkevejen](https://dagsorden.glostrup.dk/meeting/agendaitem/print/125381/205997). |
-| 25-11-2026 | [Kommunalbestyrelsen](https://dagsorden.glostrup.dk/meeting/4492) | Åbne sager om skoledistrikter 2027/28, anlægsregnskab og rammeaftale afventer Kommunalbestyrelsen. Dagsorden ikke publiceret. |
 | 09-11-2026 | [Dialogmøde, udvalg og skolebestyrelser](https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207528) | Tema: skolernes egen identitet og udvikling samt dialogen med udvalget. |
+| 25-11-2026 | [Kommunalbestyrelsen](https://dagsorden.glostrup.dk/meeting/4492) | Åbne sager om skoledistrikter 2027/28, anlægsregnskab og rammeaftale afventer Kommunalbestyrelsen. Dagsorden ikke publiceret. |
+| 02-12-2026 | [Børne- og Skoleudvalget](https://dagsorden.glostrup.dk/meeting/4461) | Mødet ønskes afholdt på [daginstitutionen Mælkevejen](https://dagsorden.glostrup.dk/meeting/agendaitem/print/125381/205997). |
 
 ## Åbne sager
 
@@ -18,11 +18,11 @@ Ikke endeligt afgjort: kun indstillet af forvaltningen eller anbefalet af et udv
 
 | Dato | Udvalg | Sag | Kort | Mangler |
 | --- | --- | --- | --- | --- |
-| [04-11-2026](https://dagsorden.glostrup.dk/meeting/4445) | Børne- og Skoleudvalget | [Skoledistrikter og klasseoprettelse 2027/28](https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207536) | Scenarie A anbefalet (5–2): Nordvang 2 og Ejby 2 0.-klasser. Nordvangs bestyrelse ønskede B (3 spor). | Kommunalbestyrelsen |
+| [04-11-2026](https://dagsorden.glostrup.dk/meeting/4445) | Børne- og Skoleudvalget | [Skoledistrikter og klasseoprettelse 2027/28](https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207536) | Scenarie A anbefalet (5–2): Nordvang 2 og Ejby 2 0.-klasser. Skolebestyrelsen på Nordvang/Ejby ønskede B (3 spor). | Kommunalbestyrelsen |
 | [04-11-2026](https://dagsorden.glostrup.dk/meeting/4445) | Børne- og Skoleudvalget | [Anlægsregnskab, renovering af Nordvang](https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207540) | Renovering 13,0 mio. kr. og indeklima 4,5 mio. kr. afsluttet; anbefalet godkendt. | Kommunalbestyrelsen |
 | [04-11-2026](https://dagsorden.glostrup.dk/meeting/4445) | Børne- og Skoleudvalget | [Kapacitet på Nordvang (i distriktssagen)](https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207536) | 1 ekstra klasselokale i 2027, 2 i 2028. Pavillon: leje 3,5–4 mio. kr./2 år, køb 8,6 mio. kr. Finansiering kommer i en selvstændig sag. | Selvstændig sag |
 | [04-11-2026](https://dagsorden.glostrup.dk/meeting/4445) | Børne- og Skoleudvalget | [Rammeaftale 2027–2028 for specialområdet](https://dagsorden.glostrup.dk/meeting/agendaitem/print/126564/207548) | Specialundervisningsområdet indgår; udvalget godkendte indstillingen. | Kommunalbestyrelsen |
-| [24-06-2026](https://dagsorden.glostrup.dk/meeting/4293) | Kommunalbestyrelsen | [Evt. pavilloner ved Nordvangskolen](https://dagsorden.glostrup.dk/meeting/agendaitem/print/123101/203165) | Oversendt til budget 2027. Udfaldet ikke fundet i budgetsagen. | Afklaring |
+| [24-06-2026](https://dagsorden.glostrup.dk/meeting/4293) | Kommunalbestyrelsen | [Evt. pavilloner på Nordvang](https://dagsorden.glostrup.dk/meeting/agendaitem/print/123101/203165) | Oversendt til budget 2027. Udfaldet ikke fundet i budgetsagen. | Afklaring |
 | [24-06-2026](https://dagsorden.glostrup.dk/meeting/4293) | Kommunalbestyrelsen | [Sikker skolevej, Ejby Mosevej](https://dagsorden.glostrup.dk/meeting/agendaitem/print/123101/203141) | Delte stier mellem Ejbydalsvej og Ejbytoften (4,85 mio. kr.) udskudt til budgetprocessen. | Finansiering |
 | [12-08-2026](https://dagsorden.glostrup.dk/meeting/4325) | Børne- og Skoleudvalget | [Ramme for politisk datarapportering](https://dagsorden.glostrup.dk/meeting/agendaitem/print/123611/203747) | Udsat, indtil ny direktør er ansat. | Ny behandling |
 
@@ -41,7 +41,7 @@ Referat med endelig beslutning.
 | [12-08-2026](https://dagsorden.glostrup.dk/meeting/4325) | Børne- og Skoleudvalget | [Skoledistrikter 2027/28 i høring](https://dagsorden.glostrup.dk/meeting/agendaitem/print/123611/203751) | 4 scenarier sendt i høring hos skolebestyrelserne (6–0). |
 | [24-06-2026](https://dagsorden.glostrup.dk/meeting/4293) | Kommunalbestyrelsen | [Sikre skoleveje 2026-2027](https://dagsorden.glostrup.dk/meeting/agendaitem/print/123101/203141) | 3,5 mio. kr./år. Krydset Bjergbakkevej/Statenevej ombygges (1,5 mio. kr.); skilte og parkeringsforbud ved Ejby Torvevej og Sofielundsvej. |
 | [24-06-2026](https://dagsorden.glostrup.dk/meeting/4293) | Kommunalbestyrelsen | [C-sporet flyttes organisatorisk](https://dagsorden.glostrup.dk/meeting/agendaitem/print/123101/203161) | Fra Vestervang til Specialområde Glostrup; bliver fysisk på Vestervang. |
-| [03-06-2026](https://dagsorden.glostrup.dk/meeting/4237) | Børne- og Skoleudvalget | [Pulje til faglokaler](https://dagsorden.glostrup.dk/meeting/agendaitem/print/122665/202301) | 1,5 mio. kr.; Nordvang ønsker fysik/kemi og biologi. Til orientering. |
+| [03-06-2026](https://dagsorden.glostrup.dk/meeting/4237) | Børne- og Skoleudvalget | [Pulje til faglokaler](https://dagsorden.glostrup.dk/meeting/agendaitem/print/122665/202301) | 1,5 mio. kr.; Nordvang/Ejby ønsker fysik/kemi og biologi. Til orientering. |
 | [03-06-2026](https://dagsorden.glostrup.dk/meeting/4237) | Børne- og Skoleudvalget | [Timebank og kortere skoledag](https://dagsorden.glostrup.dk/meeting/agendaitem/print/122665/202305) | Til orientering. |
 | [06-05-2026](https://dagsorden.glostrup.dk/meeting/4190) | Børne- og Skoleudvalget | [Status på skolemadsforsøg](https://dagsorden.glostrup.dk/meeting/agendaitem/print/121885/201257) | Nationalt forsøg 2026–2028. Til orientering. |
 | [29-04-2026](https://dagsorden.glostrup.dk/meeting/4184) | Kommunalbestyrelsen | [Befolkningsprognose 2026-2036](https://dagsorden.glostrup.dk/meeting/agendaitem/print/121565/200905) | Godkendt; grundlag for elevprognoser. |

@@ -44,7 +44,7 @@
   "links": [
    {
     "title": "Skolebestyrelser",
-    "note": "Skolerne i Glostrups side om bestyrelserne",
+    "note": "Skolerne i Glostrups side om skolebestyrelserne",
     "url": "https://skolerneiglostrup.dk/skolebestyrelsen/skolebestyrelsen/"
    },
    {
@@ -54,17 +54,17 @@
    },
    {
     "title": "Principper, Nordvang/Ejbyskolen",
-    "note": "Bestyrelsens principper (Google Drive)",
+    "note": "Skolebestyrelsens principper (Google Drive)",
     "url": "https://drive.google.com/drive/folders/1zuK9zaHcd3HFEmefq7sEB-Xh39zz5TrK"
    },
    {
     "title": "Referater, alle skoler",
-    "note": "Alle fire bestyrelser (Google Drive)",
+    "note": "Alle fire skolebestyrelser (Google Drive)",
     "url": "https://drive.google.com/drive/folders/16xzIxuWbVCgtnTLdUEW2QlOSbZqIyMt6"
    },
    {
     "title": "Principper, alle skoler",
-    "note": "Alle fire bestyrelser (Google Drive)",
+    "note": "Alle fire skolebestyrelser (Google Drive)",
     "url": "https://drive.google.com/drive/folders/1oC94rv-1Gc1C4KrOv6-fcMn8IrkWz1rJ"
    }
   ]
@@ -73,11 +73,11 @@
   "group": "Skolerne",
   "links": [
    {
-    "title": "Nordvangskolen",
+    "title": "Nordvang",
     "url": "https://skolerneiglostrup.dk/skolerne/nordvang/"
    },
    {
-    "title": "Ejbyskolen",
+    "title": "Ejby",
     "url": "https://skolerneiglostrup.dk/skolerne/ejby/"
    },
    {

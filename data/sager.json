@@ -39,7 +39,7 @@
   },
   {
    "slug": "bestyrelse",
-   "name": "Bestyrelsens arbejde"
+   "name": "Skolebestyrelsens arbejde"
   }
  ],
  "sager": [
@@ -48,7 +48,7 @@
    "topic": "klasser",
    "status": "åben",
    "t": "0.-klasser og skoledistrikter 2027/28",
-   "lead": "Udvalget anbefaler 2 klasser på Nordvang og 2 i Ejby. Bestyrelsen ønskede 3 spor på Nordvang. Kommunalbestyrelsen beslutter.",
+   "lead": "Udvalget anbefaler 2 klasser på Nordvang og 2 i Ejby. Skolebestyrelsen ønskede 3 spor på Nordvang. Kommunalbestyrelsen beslutter.",
    "events": [
     {
      "d": "2026-11-25",
@@ -80,7 +80,7 @@
      "d": "2026-09-24",
      "src": "Skolebestyrelsen",
      "kind": "Høringssvar",
-     "t": "Bestyrelsen anbefaler scenarie B",
+     "t": "Skolebestyrelsen anbefaler scenarie B",
      "x": "Afgivet inden høringsfristen 24. september (datoen er fristen). Fasthold tre spor på Nordvang. Skolen er presset på klasselokaler og SFO. Ønsker en permanent bygning i stedet for Broholm frem for pavilloner.",
      "links": [
       [
@@ -109,7 +109,7 @@
    "topic": "klasser",
    "status": "afgjort",
    "t": "0.-klasser og skoledistrikter 2026/27",
-   "lead": "Tre 0.-klasser på Nordvang og én i Ejby. Bestyrelsen pegede på, at det kræver 12 indskolingslokaler, og skolen har 10.",
+   "lead": "Tre 0.-klasser på Nordvang og én i Ejby. Skolebestyrelsen pegede på, at det kræver 12 indskolingslokaler, og skolen har 10.",
    "events": [
     {
      "d": "2026-03-04",
@@ -159,7 +159,7 @@
      "src": "Børne- og Skoleudvalget",
      "kind": "Anbefaling",
      "t": "Scenarie A og distrikt A2 anbefalet",
-     "x": "5 for, 2 undlod (V). Bestyrelsens høringssvar ligger som bilag.",
+     "x": "5 for, 2 undlod (V). Skolebestyrelsens høringssvar ligger som bilag.",
      "links": [
       [
        "Punkt",
@@ -176,7 +176,7 @@
      "src": "Skolebestyrelsen",
      "kind": "Høringssvar",
      "t": "Høringssvar om skoledistrikter vedtaget",
-     "x": "Nordvangskolen har 10 indskolingslokaler, men tre 0. klasser i 26/27 vil kræve 12 klasselokaler.",
+     "x": "Nordvang har 10 indskolingslokaler, men tre 0. klasser i 26/27 vil kræve 12 klasselokaler.",
      "links": [
       [
        "Referat (PDF)",
@@ -217,7 +217,7 @@
    "topic": "klasser",
    "status": "afgjort",
    "t": "0.-klasser og skoledistrikter 2025/26",
-   "lead": "Udvalget valgte 12 0.-klasser og distriktsmodel B, som bestyrelsen anbefalede.",
+   "lead": "Udvalget valgte 12 0.-klasser og distriktsmodel B, som skolebestyrelsen anbefalede.",
    "events": [
     {
      "d": "2025-04-24",
@@ -315,7 +315,7 @@
      "src": "Kommunalbestyrelsen",
      "kind": "Beslutning",
      "t": "Linjemodellen ophæves",
-     "x": "Fra 2025/26 beslutter hver skole selv, om 8. og 9. klasse har linjer. Alle fire bestyrelser støttede.",
+     "x": "Fra 2025/26 beslutter hver skole selv, om 8. og 9. klasse har linjer. Alle fire skolebestyrelser støttede.",
      "links": [
       [
        "Punkt",
@@ -384,7 +384,7 @@
      "src": "Børne- og Skoleudvalget",
      "kind": "Anbefaling",
      "t": "Udskolingsmodel A anbefalet",
-     "x": "Revideret styrelsesvedtægt med model A og principper for tildelingsmodel anbefalet. Bestyrelsens høringssvar som bilag.",
+     "x": "Revideret styrelsesvedtægt med model A og principper for tildelingsmodel anbefalet. Skolebestyrelsens høringssvar som bilag.",
      "links": [
       [
        "Punkt",
@@ -501,7 +501,7 @@
      "src": "Skolebestyrelsen",
      "kind": "Besluttet",
      "t": "Høringssvar om skoledistrikter vedtaget",
-     "x": "Nordvangskolen har 10 indskolingslokaler, men tre 0. klasser i 26/27 vil kræve 12 klasselokaler.",
+     "x": "Nordvang har 10 indskolingslokaler, men tre 0. klasser i 26/27 vil kræve 12 klasselokaler.",
      "links": [
       [
        "Referat (PDF)",
@@ -542,14 +542,14 @@
    "topic": "kapacitet",
    "status": "åben",
    "t": "Faglokaler og fysik/kemi",
-   "lead": "Bestyrelsen og elevrådet ønsker nyt fysik/kemilokale. Puljen på 1,5 mio. kr. deles mellem skolerne.",
+   "lead": "Skolebestyrelsen og elevrådet ønsker nyt fysik/kemilokale. Puljen på 1,5 mio. kr. deles mellem skolerne.",
    "events": [
     {
      "d": "2026-06-03",
      "src": "Børne- og Skoleudvalget",
      "kind": "Orientering",
      "t": "Pulje til faglokaler fordelt",
-     "x": "1,5 mio. kr. i budget 2026. Nordvang ønsker investeringer omkring fysik/kemi og biologi.",
+     "x": "1,5 mio. kr. i budget 2026. Nordvang/Ejby ønsker investeringer omkring fysik/kemi og biologi.",
      "links": [
       [
        "Punkt",
@@ -661,7 +661,7 @@
      "d": "2025-01-14",
      "src": "Skolebestyrelsen",
      "kind": "Orientering",
-     "t": "Arbejdstilsynet på Nordvangskolen",
+     "t": "Arbejdstilsynet på Nordvang",
      "x": "Arbejdstilsynet havde en bemærkning til rør i mælkekælderen; undersøgelse er sat i gang.",
      "links": [
       [
@@ -901,7 +901,7 @@
      "src": "Skolebestyrelsen",
      "kind": "Høringssvar",
      "t": "Høringssvar til trafiksikkerhedsplan",
-     "x": "Svar godkendt; tilføjer manglende skilt om venstresvingsforbud til kl. 8:10 ved Nordvangskolens p-plads og sikker skolevej i Ejby.",
+     "x": "Svar godkendt; tilføjer manglende skilt om venstresvingsforbud til kl. 8:10 ved p-pladsen på Nordvang og sikker skolevej i Ejby.",
      "links": [
       [
        "Referat (PDF)",
@@ -916,7 +916,7 @@
    "topic": "mobil",
    "status": "åben",
    "t": "Mobil- og skærmpolitik",
-   "lead": "Bestyrelsen arbejder på en politik med regler pr. afdeling. Elever og kontaktforældre er hørt.",
+   "lead": "Skolebestyrelsen arbejder på en politik med regler pr. afdeling. Elever og kontaktforældre er hørt.",
    "events": [
     {
      "d": "2026-01-14",
@@ -1064,7 +1064,7 @@
    "topic": "sfo",
    "status": "afgjort",
    "t": "Mål og indhold for SFO og klub",
-   "lead": "Mål- og indholdsbeskrivelsen er godkendt. Bestyrelsen pegede på for små rammer i Klub Granskoven.",
+   "lead": "Mål- og indholdsbeskrivelsen er godkendt. Skolebestyrelsen pegede på for små rammer i Klub Granskoven.",
    "events": [
     {
      "d": "2025-02-26",
@@ -1116,7 +1116,7 @@
    "topic": "sfo",
    "status": "åben",
    "t": "SFO på Nordvang og Ejby",
-   "lead": "Ny takst for SFO I i budget 2027. Bestyrelsen ønsker oplæg om den længere åbningstid.",
+   "lead": "Ny takst for SFO I i budget 2027. Skolebestyrelsen ønsker oplæg om den længere åbningstid.",
    "events": [
     {
      "d": "2026-10-07",
@@ -1161,8 +1161,8 @@
      "d": "2024-10-22",
      "src": "Skolebestyrelsen",
      "kind": "Orientering",
-     "t": "Bekymring om SFO på Nordvangskolen",
-     "x": "Skolelederen orienterede om tiltag og proces vedrørende bekymring for SFO'en på Nordvangskolen.",
+     "t": "Bekymring om SFO Nordvang",
+     "x": "Skolelederen orienterede om tiltag og proces vedrørende bekymring for SFO Nordvang.",
      "links": [
       [
        "Referat (PDF)",
@@ -1202,8 +1202,8 @@
    "id": "budget",
    "topic": "oekonomi",
    "status": "afgjort",
-   "t": "Skolens budget og bestyrelsens ønsker",
-   "lead": "Bestyrelsen har prioriteret lejrskoler, fysik/kemi, vedligehold, lokal pedel og kapacitet.",
+   "t": "Skolens budget og skolebestyrelsens ønsker",
+   "lead": "Skolebestyrelsen har prioriteret lejrskoler, fysik/kemi, vedligehold, lokal pedel og kapacitet.",
    "events": [
     {
      "d": "2026-10-07",
@@ -1590,7 +1590,7 @@
    "topic": "trivsel",
    "status": "afgjort",
    "t": "Skolemad",
-   "lead": "Nordvang kom ikke med i det nationale forsøg, men har sit eget projekt.",
+   "lead": "Nordvang/Ejby kom ikke med i det nationale forsøg, men har sit eget projekt.",
    "events": [
     {
      "d": "2026-05-06",
@@ -1623,7 +1623,7 @@
      "src": "Skolebestyrelsen",
      "kind": "Orientering",
      "t": "Ikke med i skolemadsforsøg",
-     "x": "Nordvangskolen søgte om at komme med i Skolemadsforsøget, men blev ikke udvalgt.",
+     "x": "Nordvang/Ejby søgte om at komme med i Skolemadsforsøget, men blev ikke udvalgt.",
      "links": [
       [
        "Referat (PDF)",
@@ -1638,7 +1638,7 @@
    "topic": "bestyrelse",
    "status": "afgjort",
    "t": "Valg til skolebestyrelsen 2026",
-   "lead": "Nye regler for valg af forældrerepræsentanter er godkendt. Ny bestyrelse fra skoleåret 2026/27.",
+   "lead": "Nye regler for valg af forældrerepræsentanter er godkendt. Ny skolebestyrelse fra skoleåret 2026/27.",
    "events": [
     {
      "d": "2026-01-07",
@@ -1684,7 +1684,7 @@
      "src": "Skolebestyrelsen",
      "kind": "Drøftet",
      "t": "Valg til skolebestyrelse 2026",
-     "x": "Valg i foråret 2026, ny bestyrelse fra skoleåret 26/27; suppleringsvalg drøftes efter sommerferien.",
+     "x": "Valg i foråret 2026, ny skolebestyrelse fra skoleåret 26/27; suppleringsvalg drøftes efter sommerferien.",
      "links": [
       [
        "Referat (PDF)",
@@ -1699,7 +1699,7 @@
    "topic": "bestyrelse",
    "status": "åben",
    "t": "Vederlag til skolebestyrelsen",
-   "lead": "Bestyrelsen ønsker vederlag, når pengene ikke kan gå til skolen. Personaleafdelingen er kontaktet.",
+   "lead": "Skolebestyrelsen ønsker vederlag, når pengene ikke kan gå til skolen. Personaleafdelingen er kontaktet.",
    "events": [
     {
      "d": "2025-12-02",
@@ -1766,7 +1766,7 @@
      "d": "2025-11-04",
      "src": "Skolebestyrelsen",
      "kind": "Orientering",
-     "t": "Valgmøde på Nordvangskolen",
+     "t": "Valgmøde på Nordvang",
      "x": "Valgmøde med alle politikere inviteret; positiv feedback på afholdelsen.",
      "links": [
       [
@@ -1792,7 +1792,7 @@
      "d": "2024-08-15",
      "src": "Skolebestyrelsen",
      "kind": "Besluttet",
-     "t": "Bestyrelsen konstitueret",
+     "t": "Skolebestyrelsen konstitueret",
      "x": "Formand og næstformand valgt; SB anmoder om, at et medlem fra BSU deltager i møderne.",
      "links": [
       [

@@ -167,7 +167,7 @@ def main():
     markdown = (ROOT / "data" / "overblik.md").read_text(encoding="utf-8")
     page = build_page(
         title="Skolesager i Glostrup – Nordvang/Ejby",
-        description="Politiske sager, der rammer Nordvang og Ejby – fra alle udvalg i Glostrup Kommune.",
+        description="Politiske sager, der rammer Nordvang/Ejby – fra alle udvalg i Glostrup Kommune.",
         path="",
         prefix="",
         active="",

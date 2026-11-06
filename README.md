@@ -2,7 +2,7 @@
 
 **Siden: [duemunk.github.io/nordvang-ejby](https://duemunk.github.io/nordvang-ejby/)**
 
-Politiske sager i Glostrup Kommune, der rammer Nordvangskolen og afdeling Ejby – fra alle udvalg. Hvad er på vej, og hvad er besluttet.
+Politiske sager i Glostrup Kommune, der rammer Nordvang/Ejby – fra alle udvalg. Hvad er på vej, og hvad er besluttet.
 
 ## Hvad står der på siden?
 
