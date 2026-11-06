@@ -69,9 +69,12 @@ Siden "Sager efter tema" (`sager/`) bygges fra `data/sager.json`. Hver sag har `
 ## 5. Byg siderne
 
 ```bash
+python3 scripts/tjek_data.py
 python3 scripts/byg_side.py
 python3 scripts/byg_sager.py
 ```
+
+`tjek_data.py` finder fejl i `data/` (forkert status, tema eller datoformat, ødelagt JSON). Ret dem, før du bygger. Samme tjek kører automatisk på GitHub ved hvert push og hver pull request, og det fejler også, hvis de byggede sider ikke passer med data.
 
 Åbn `index.html`, `sager/index.html` og en sagsside lokalt, og tjek, at de ser rigtige ud.
 

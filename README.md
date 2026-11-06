@@ -51,6 +51,7 @@ Referat med endelig beslutning.
 | [28-01-2026](https://dagsorden.glostrup.dk/meeting/4012) | Kommunalbestyrelsen | [SFO Broholm bliver klasselokale](https://dagsorden.glostrup.dk/meeting/agendaitem/print/90405/148577) | Ombygning godkendt; forvaltningen skal fremlægge en pavillonløsning. |
 | [28-01-2026](https://dagsorden.glostrup.dk/meeting/4012) | Kommunalbestyrelsen | [Sikker skolevej i Ejby (medlemsforslag)](https://dagsorden.glostrup.dk/meeting/agendaitem/print/90405/148609) | Sendt videre til Miljø-, Teknik- og Ejendomsudvalget. |
 | [07-01-2026](https://dagsorden.glostrup.dk/meeting/3980) | Børne- og Skoleudvalget | [Valg af forældrerepræsentanter](https://dagsorden.glostrup.dk/meeting/agendaitem/print/90617/148873) | Nye valgregler for skolebestyrelserne. Til orientering. |
+| [17-12-2025](https://dagsorden.glostrup.dk/meeting/3896) | Kommunalbestyrelsen | [Tag og skimmel på Ejbyskolen](https://dagsorden.glostrup.dk/meeting/agendaitem/print/90913/149065) | 7,75 mio. kr. frigivet til nyt tag over gangene. Skimmel og asbest; indvendigt arbejde i sommerferien 2026. |
 
 ## Bidrag
 
@@ -58,7 +59,7 @@ Siden bygges fra filerne i dette repo, og alle kan foreslå rettelser og nye sag
 
 - **Forsiden** (Overblik) er denne fil, `README.md`. Ret tabellerne her.
 - **Sager efter tema** og **Kilder og links** bygges fra `data/sager.json` og `data/links.json`.
-- Byg siderne igen med `python3 scripts/byg_side.py` og `python3 scripts/byg_sager.py`, og commit både data og de byggede filer.
+- Tjek data med `python3 scripts/tjek_data.py`, byg siderne igen med `python3 scripts/byg_side.py` og `python3 scripts/byg_sager.py`, og commit både data og de byggede filer. GitHub kører samme tjek ved hver pull request.
 
 Med Claude Code: åbn repoet og skriv "opdater oversigten". Skillen [opdater-skolesager](https://github.com/duemunk/nordvang-ejby/blob/main/.claude/skills/opdater-skolesager/SKILL.md) guider resten. Med GitHub Copilot: opret en issue fra skabelonen "Opdater oversigten" og tildel den til Copilot.
 

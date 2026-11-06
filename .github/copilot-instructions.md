@@ -21,7 +21,7 @@ Repoet er en oversigt over politiske sager i Glostrup Kommune, der berører Nord
 6. Række-format: dato `DD-MM-ÅÅÅÅ` linket til mødet (`https://dagsorden.glostrup.dk/meeting/<id>`), sagstitel linket til punktet (`https://dagsorden.glostrup.dk/meeting/agendaitem/print/<a>/<b>`), "Kort" på højst ca. 20 ord med tal og enheder. Åbne sager har også kolonnen "Mangler".
 7. Skriv kun fakta, der står i punktet. Alle kilder er links.
 8. Tilføj hvert nyt punkt som hændelse i den rette sag i `data/sager.json` (se trin 4 i skillen), og opdatér sagens status og lead.
-9. Opdatér datoen i "Opdateret …", kør `python3 scripts/byg_side.py` og `python3 scripts/byg_sager.py`, og commit data og byggede filer sammen.
+9. Opdatér datoen i "Opdateret …", kør `python3 scripts/tjek_data.py`, `python3 scripts/byg_side.py` og `python3 scripts/byg_sager.py`, og commit data og byggede filer sammen.
 
 ## Pull request
 

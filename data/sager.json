@@ -647,19 +647,6 @@
     {
      "d": "2025-02-12",
      "src": "Skolebestyrelsen",
-     "kind": "Orientering",
-     "t": "Skimmel på Ejbyskolen",
-     "x": "Ledelsen følger sagen om skimmel på Ejbyskolen tæt; rengøring i uge 8.",
-     "links": [
-      [
-       "Referat (PDF)",
-       "https://drive.google.com/file/d/1nf9dLa0dL8XLueKdVJzBPHhvU65MjhQ6/view"
-      ]
-     ]
-    },
-    {
-     "d": "2025-02-12",
-     "src": "Skolebestyrelsen",
      "kind": "Drøftet",
      "t": "Rundering og vedligehold på Ejby",
      "x": "Mangelliste fra rundering delt; samlet henvendelse om Glostrup Ejendommes serviceniveau overvejes; ønske om pedel på hver matrikel.",
@@ -706,6 +693,54 @@
       [
        "Referat (PDF)",
        "https://drive.google.com/file/d/1mlk9llSpHgqdDZ0Tf9HcseANtowVOpD9/view"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ejby-tag",
+   "topic": "kapacitet",
+   "status": "afgjort",
+   "t": "Tag og skimmel på Ejbyskolen",
+   "lead": "Taget over gangene på Ejbyskolen udskiftes for 8,3 mio. kr. efter fund af skimmel; der er også asbest i taget. Status på udførelsen er ikke offentliggjort.",
+   "events": [
+    {
+     "d": "2025-12-17",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Anlægsbevilling på 7,75 mio. kr. frigivet",
+     "x": "Asbest i klæberen og skimmel under krydsfineren. Udvendigt arbejde i foråret 2026, mens skolen er i brug; indvendigt i sommerferien 2026.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/90913/149065"
+      ]
+     ]
+    },
+    {
+     "d": "2025-05-28",
+     "src": "Kommunalbestyrelsen",
+     "kind": "Beslutning",
+     "t": "Taget skal renoveres",
+     "x": "Skimmel over dampspærren i gangene. 550.000 kr. til projektering i 2025; 7,75 mio. kr. oversendt til budget 2026. I alt 8,3 mio. kr.",
+     "links": [
+      [
+       "Punkt",
+       "https://dagsorden.glostrup.dk/meeting/agendaitem/print/93381/152637"
+      ]
+     ]
+    },
+    {
+     "d": "2025-02-12",
+     "src": "Skolebestyrelsen",
+     "kind": "Orientering",
+     "t": "Skimmel på Ejbyskolen",
+     "x": "Ledelsen følger sagen om skimmel på Ejbyskolen tæt; rengøring i uge 8.",
+     "links": [
+      [
+       "Referat (PDF)",
+       "https://drive.google.com/file/d/1nf9dLa0dL8XLueKdVJzBPHhvU65MjhQ6/view"
       ]
      ]
     }

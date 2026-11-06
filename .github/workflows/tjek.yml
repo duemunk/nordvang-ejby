@@ -1,0 +1,32 @@
+name: Tjek data og byggede sider
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  tjek:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tjek data
+        run: python3 scripts/tjek_data.py
+      - name: Byg siderne
+        run: |
+          python3 scripts/byg_side.py
+          python3 scripts/byg_sager.py
+      - name: Tjek at de byggede sider er committet
+        run: |
+          if ! git diff --quiet || [ -n "$(git status --porcelain)" ]; then
+            echo "::error::De byggede sider passer ikke med data. Kør python3 scripts/byg_side.py og python3 scripts/byg_sager.py, og commit de byggede filer."
+            git status --short
+            exit 1
+          fi
+          echo "De byggede sider passer med data."
