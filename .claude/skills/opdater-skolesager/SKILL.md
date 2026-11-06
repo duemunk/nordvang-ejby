@@ -1,21 +1,21 @@
 ---
 name: opdater-skolesager
-description: Opdater oversigten over skolesager i Glostrup Kommune (fokus Nordvang/Ejby) med nye dagsordener og referater fra Åben Dagsorden, byg den statiske side og send ændringen som pull request. Brug den, når nogen beder om at "opdatere oversigten", "tilføje nye sager", "tjekke nye referater", "flytte en sag til afgjort" eller rette en sag i README.md.
+description: Opdater oversigten over skolesager i Glostrup Kommune (fokus Nordvang/Ejby) med nye dagsordener og referater fra Åben Dagsorden, byg den statiske side og send ændringen som pull request. Brug den, når nogen beder om at "opdatere oversigten", "tilføje nye sager", "tjekke nye referater", "flytte en sag til afgjort" eller rette en sag på forsiden.
 ---
 
 # Opdater skolesager
 
-Oversigten bor i `README.md`. `index.html` (GitHub Pages-siden) bygges ud fra den med `scripts/byg_side.py` og må aldrig redigeres i hånden. Alt indhold er på dansk.
+Forsiden (Overblik) bor i `data/overblik.md`. `index.html` (GitHub Pages-siden) bygges ud fra den med `scripts/byg_side.py` og må aldrig redigeres i hånden. Alt indhold er på dansk.
 
 ## 1. Hent nye punkter
 
-Find datoen i linjen "Opdateret …" øverst i `README.md`. Hent punkter fra en uge før den dato og frem:
+Find datoen i linjen "Opdateret …" øverst i `data/overblik.md`. Hent punkter fra en uge før den dato og frem:
 
 ```bash
 python3 scripts/hent_sager.py --fra 28/10/2026
 ```
 
-Scriptet søger på tværs af alle udvalg og markerer hvert punkt `[NY]` eller `[kendt]` (linket står allerede i README). For hvert punkt får du mødestatus, møde- og punktlink, beslutningskompetence og beslutningerne.
+Scriptet søger på tværs af alle udvalg og markerer hvert punkt `[NY]` eller `[kendt]` (linket står allerede i `data/overblik.md`). For hvert punkt får du mødestatus, møde- og punktlink, beslutningskompetence og beslutningerne.
 
 Hvis brugeren har givet et konkret link til et møde eller punkt, så tag udgangspunkt i det.
 
@@ -33,9 +33,9 @@ Et punkt er **afgjort**, når der er referat med beslutning fra den myndighed, d
 
 Samme sag går ofte gennem fagudvalg → Økonomiudvalget → Kommunalbestyrelsen. Den skal kun stå én gang: i det seneste trin, med link til det trin.
 
-## 3. Ret README.md
+## 3. Ret data/overblik.md
 
-Rækkefølgen af afsnit er fast: **Kommende møder**, **Åbne sager**, **Afgjorte sager**, **Bidrag**. I hver tabel står nyeste dato øverst.
+Rækkefølgen af afsnit er fast: **Kommende møder**, **Åbne sager**, **Afgjorte sager**. I hver tabel står nyeste dato øverst.
 
 - **Dato** `DD-MM-ÅÅÅÅ`, linket til mødet: `[04-11-2026](https://dagsorden.glostrup.dk/meeting/4445)`.
 - **Udvalg** skrevet helt ud, fx "Børne- og Skoleudvalget".
@@ -80,7 +80,7 @@ python3 scripts/byg_sager.py
 
 ## 6. Send ændringen
 
-Commit data og de byggede filer sammen (`README.md`, `index.html`, `data/`, `sager/`, `kilder/`) med en kort dansk overskrift, fx "Tilføj referat fra Børne- og Skoleudvalget 02-12-2026".
+Commit data og de byggede filer sammen (`index.html`, `data/`, `sager/`, `kilder/`) med en kort dansk overskrift, fx "Tilføj referat fra Børne- og Skoleudvalget 02-12-2026".
 
 - Har du skriveadgang: lav en branch og en pull request med `gh pr create`.
 - Ellers: fork repoet (`gh repo fork --remote`), push til din fork, og opret pull request mod `duemunk/nordvang-ejby`.

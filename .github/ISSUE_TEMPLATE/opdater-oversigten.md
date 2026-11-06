@@ -5,7 +5,7 @@ title: "Opdater oversigten"
 labels: opdatering
 ---
 
-Opdater `README.md` med nye punkter fra Åben Dagsorden siden datoen i "Opdateret …", og byg `index.html` igen.
+Opdater `data/overblik.md` med nye punkter fra Åben Dagsorden siden datoen i "Opdateret …", og byg `index.html` igen.
 
 Følg `.github/copilot-instructions.md` og `.claude/skills/opdater-skolesager/SKILL.md`.
 

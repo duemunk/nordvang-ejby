@@ -7,7 +7,7 @@ Brug:
 
 Udskriver ét afsnit pr. punkt med mødedato, udvalg, mødestatus (Dagsorden/Referat),
 links, beslutningskompetence og de beslutninger, der står i punktet. Punkter, hvis
-link allerede står i README.md, markeres "kendt"; nye markeres "NY".
+link allerede står i data/overblik.md, markeres "kendt"; nye markeres "NY".
 
 Kun standardbiblioteket bruges, så scriptet kører uden installation.
 """
@@ -87,7 +87,7 @@ def main():
     parser.add_argument("--soeg", nargs="*", default=DEFAULT_TERMS, help="Søgeord")
     args = parser.parse_args()
 
-    readme = Path(__file__).resolve().parent.parent / "README.md"
+    readme = Path(__file__).resolve().parent.parent / "data" / "overblik.md"
     known = readme.read_text(encoding="utf-8") if readme.exists() else ""
 
     meetings = {}

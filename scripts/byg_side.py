@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Bygger den statiske side index.html ud fra README.md.
+"""Bygger forsiden index.html ud fra data/overblik.md.
 
 Brug:
     python3 scripts/byg_side.py
 
-README.md er kilden. index.html må ikke redigeres i hånden – kør scriptet efter
-hver ændring i README.md og commit begge filer. Kun standardbiblioteket bruges.
+data/overblik.md er kilden. index.html må ikke redigeres i hånden – kør scriptet efter
+hver ændring i data/overblik.md og commit begge filer. Kun standardbiblioteket bruges.
 """
 
 import html
@@ -131,14 +131,10 @@ def render_table(lines, cases_by_url):
     return "\n".join(out)
 
 
-GITHUB_ONLY_SECTIONS = {"Bidrag"}
-
-
 def render(markdown, cases_by_url):
     blocks = re.split(r"\n\s*\n", markdown.strip())
     out = []
     section_open = False
-    skipping = False
     for block in blocks:
         lines = block.strip().splitlines()
         first = lines[0]
@@ -147,10 +143,6 @@ def render(markdown, cases_by_url):
             if section_open:
                 out.append("</section>")
                 section_open = False
-            skipping = title in GITHUB_ONLY_SECTIONS
-        if skipping:
-            continue
-        if first.startswith("## "):
             css, label = SECTION_TAGS.get(title, ("", ""))
             out.append(f'<section class="{css}">' if css else "<section>")
             section_open = True
@@ -172,7 +164,7 @@ def render(markdown, cases_by_url):
 
 
 def main():
-    markdown = (ROOT / "README.md").read_text(encoding="utf-8")
+    markdown = (ROOT / "data" / "overblik.md").read_text(encoding="utf-8")
     page = build_page(
         title="Skolesager i Glostrup – Nordvang/Ejby",
         description="Politiske sager, der rammer Nordvang og Ejby – fra alle udvalg i Glostrup Kommune.",
@@ -184,7 +176,7 @@ def main():
         share_description="Kommende møder, åbne og afgjorte sager fra alle udvalg i Glostrup Kommune.",
     )
     (ROOT / "index.html").write_text(page, encoding="utf-8")
-    print("index.html bygget fra README.md")
+    print("index.html bygget fra data/overblik.md")
 
 
 if __name__ == "__main__":
