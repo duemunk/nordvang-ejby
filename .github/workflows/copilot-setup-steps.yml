@@ -21,3 +21,9 @@ jobs:
           python-version: "3.12"
       - name: Tjek adgang til Åben Dagsorden
         run: curl -sS -o /dev/null -w "dagsorden.glostrup.dk svarer %{http_code}\n" https://dagsorden.glostrup.dk/ || echo "dagsorden.glostrup.dk kan ikke nås"
+      - name: Hent skolebestyrelsens referater fra Drive
+        run: |
+          sudo apt-get install -y -qq poppler-utils
+          pip install -q gdown==6.5.1
+          gdown --folder 1wy7QcmXD0iuhFbZv6E8iGdMmu9Gv28CH -O referater --quiet
+          echo "$(find referater -name '*.pdf' | wc -l) referater hentet til referater/"

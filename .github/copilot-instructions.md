@@ -27,4 +27,6 @@ Repoet er en oversigt over politiske sager i Glostrup Kommune, der berører Nord
 
 Titel og beskrivelse på dansk. Beskrivelsen lister de sager, der er tilføjet, flyttet eller rettet, med links til punkterne.
 
+Skolebestyrelsens referater er hentet fra Drive-mappen til `referater/` (PDF, ikke committet), før firewallen slår til. Læs dem derfra med `pdftotext`, og link til PDF'en i Drive-mappen. Drive er ikke på firewallens tilladelsesliste. Indskannede referater uden tekst springes over og nævnes i pull requesten.
+
 Kan `hent_sager.py` ikke nå `dagsorden.glostrup.dk` (firewall), så stop og skriv det i pull requesten i stedet for at gætte indhold.

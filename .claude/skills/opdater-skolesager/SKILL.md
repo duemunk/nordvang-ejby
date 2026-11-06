@@ -63,7 +63,7 @@ Siden "Sager efter tema" (`sager/`) bygges fra `data/sager.json`. Hver sag har `
 - `src` er "Skolebestyrelsen" eller udvalgets fulde navn. `kind` er fx Høring, Høringssvar, Anbefaling, Beslutning, Orientering, Udsat eller Kommende.
 - For hvert nyt punkt fra trin 2: tilføj en hændelse til den sag, det hører til, og opdatér sagens `status` og `lead`. Hører det ikke til en sag, så opret en ny.
 - Skolebestyrelsens høringssvar ligger som bilag på punkterne. `python3 scripts/hent_hoeringssvar.py` finder dem; link dem som `["Høringssvar (PDF)", "<url>"]`.
-- Skolebestyrelsens referater ligger i [Drive-mappen](https://drive.google.com/drive/folders/1wy7QcmXD0iuhFbZv6E8iGdMmu9Gv28CH). Nye referater tilføjes til `data/skolebestyrelse.json` og som hændelser med `"src": "Skolebestyrelsen"` og link til referatets PDF. Opdatér `referater_fra_til`.
+- Skolebestyrelsens referater ligger i [Drive-mappen](https://drive.google.com/drive/folders/1wy7QcmXD0iuhFbZv6E8iGdMmu9Gv28CH). Nye referater tilføjes til `data/skolebestyrelse.json` og som hændelser med `"src": "Skolebestyrelsen"` og link til referatets PDF. Opdatér `referater_fra_til`. Hos GitHub Copilot er mappen allerede hentet til `referater/`.
 - Nye links til siden "Kilder og links" tilføjes i `data/links.json`.
 
 ## 5. Byg siderne
