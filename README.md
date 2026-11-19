@@ -8,6 +8,7 @@ Politiske sager i Glostrup Kommune, der rammer Nordvang/Ejby – fra alle udvalg
 
 - **Overblik:** kommende møder, åbne sager (endnu ikke endeligt besluttet) og afgjorte sager, nyeste først.
 - **Sager:** hver sag som en tidslinje, der samler kommunens dagsordener og referater med skolebestyrelsens egne referater og høringssvar.
+- **Principper:** skolebestyrelsens principper – gældende, nye og under arbejde – med link til hvert dokument.
 - **Kilder og links:** hvor oplysningerne kommer fra, og andre nyttige links.
 
 Alt er kort opsummeret, og hver oplysning linker til kilden – typisk [Åben Dagsorden](https://dagsorden.glostrup.dk/) eller skolebestyrelsens referater.

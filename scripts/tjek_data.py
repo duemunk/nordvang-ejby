@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Tjekker data/sager.json og data/links.json, før siderne bygges.
+"""Tjekker data/sager.json, data/principper.json og data/links.json, før siderne bygges.
 
 Brug:
     python3 scripts/tjek_data.py
@@ -91,14 +91,38 @@ def validate_links(groups, errors):
                 errors.append(f'data/links.json, gruppe "{name}": hvert link skal have "title" og en "url", der starter med https://.')
 
 
+PRINCIPLE_STATUSES = {"vedtaget", "under arbejde", "gældende", "udkast"}
+
+
+def validate_principles(data, errors):
+    if not is_url(data.get("mappe")):
+        errors.append('data/principper.json: "mappe" skal være et link, der starter med https://.')
+    for principle in data.get("principper", []):
+        name = principle.get("t", "?")
+        if not isinstance(principle.get("t"), str) or not isinstance(principle.get("x"), str):
+            errors.append(f'data/principper.json, "{name}": skal have "t" og "x".')
+        if principle.get("status") not in PRINCIPLE_STATUSES:
+            errors.append(f'data/principper.json, "{name}": "status" skal være en af {", ".join(sorted(PRINCIPLE_STATUSES))}.')
+        if principle.get("dato") is not None and not is_date(principle.get("dato")):
+            errors.append(f'data/principper.json, "{name}": "dato" skal være ÅÅÅÅ-MM-DD eller null.')
+        if principle.get("status") == "udkast" and principle.get("links"):
+            errors.append(f'data/principper.json, "{name}": udkast må ikke have links.')
+        for link in principle.get("links", []):
+            if not (isinstance(link, list) and len(link) == 2 and isinstance(link[0], str) and is_url(link[1])):
+                errors.append(f'data/principper.json, "{name}": hvert link skal være ["tekst", "https://…"].')
+
+
 def main():
     errors = []
     cases = load("sager.json", errors)
     links = load("links.json", errors)
+    principles = load("principper.json", errors)
     if cases is not None:
         validate_cases(cases, errors)
     if links is not None:
         validate_links(links, errors)
+    if principles is not None:
+        validate_principles(principles, errors)
     if errors:
         print(f"{len(errors)} fejl i data:")
         for error in errors:

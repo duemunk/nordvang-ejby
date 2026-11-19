@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Bygger sagssiderne (sager/) og kildesiden (kilder/) ud fra data/.
+"""Bygger sagssiderne (sager/), principsiden (principper/) og kildesiden (kilder/) ud fra data/.
 
 Brug:
     python3 scripts/byg_sager.py
 
-Kilder: data/sager.json (temaer, sager og deres tidslinjer) og data/links.json.
-Filerne i sager/ og kilder/ må ikke redigeres i hånden – ret i data/ og kør
+Kilder: data/sager.json (temaer, sager og deres tidslinjer), data/principper.json og data/links.json.
+Filerne i sager/, principper/ og kilder/ må ikke redigeres i hånden – ret i data/ og kør
 scriptet igen. Kun standardbiblioteket bruges.
 """
 
@@ -59,7 +59,13 @@ section.topic h2, .linkgroup h2 { font-size:15px; font-weight:600; letter-spacin
 .linkgroup ul { list-style:none; margin:0; padding:0; border-top:1px solid var(--line); }
 .linkgroup li { padding:10px 0; border-bottom:1px solid var(--line); }
 .linkgroup .note { display:block; color:var(--grey); font-size:15px; }
-@media (max-width:640px) { .case-row { padding:12px 2px; } }
+.principle { padding:12px 0; border-bottom:1px solid var(--line); }
+.principle .t { font-weight:600; color:var(--navy); }
+.principle .m { color:var(--grey); font-size:14px; font-variant-numeric:tabular-nums; }
+.principle .x { margin:2px 0 4px; max-width:65ch; }
+.principle .links { display:flex; gap:14px; flex-wrap:wrap; font-size:15px; }
+.principle .links a { display:inline-block; padding:6px 0; }
+@media (max-width:640px) { .case-row { padding:12px 2px; } .principle .links a { padding:11px 0; } }
 """
 
 
@@ -136,6 +142,38 @@ def build_case(case, topic_names):
     return "\n".join(out)
 
 
+PRINCIPLE_SECTIONS = [
+    ("vedtaget", "Vedtaget, ikke offentliggjort", "Vedtaget"),
+    ("under arbejde", "Under arbejde", "Senest drøftet"),
+    ("gældende", "Gældende", "Vedtaget"),
+    ("udkast", "Udkast", ""),
+]
+
+
+def build_principles(data):
+    out = [
+        "<h1>Principper</h1>",
+        '<p class="lead">Skolebestyrelsens principper for Nordvang/Ejby. De ældste er fra den fælles Glostrup Skole og gælder fortsat, '
+        "jf. skolebestyrelsens beslutning 15-08-2024.</p>",
+        f'<p>{ext(data["mappe"], "Alle principper i Drive-mappen")}</p>',
+    ]
+    for status, heading, date_label in PRINCIPLE_SECTIONS:
+        principles = [p for p in data["principper"] if p["status"] == status]
+        if not principles:
+            continue
+        out.append(f'<section class="linkgroup"><h2>{e(heading)}</h2><ul>')
+        for principle in principles:
+            meta = f'<div class="m">{e(date_label)} {dk(principle["dato"])}</div>' if principle["dato"] else ""
+            links = "".join(ext(url, label) for label, url in principle["links"])
+            links_html = f'<div class="links">{links}</div>' if links else ""
+            out.append(
+                f'<li class="principle"><div class="t">{e(principle["t"])}</div>{meta}'
+                f'<p class="x">{e(principle["x"])}</p>{links_html}</li>'
+            )
+        out.append("</ul></section>")
+    return "\n".join(out)
+
+
 def build_sources(links):
     out = ["<h1>Kilder og links</h1>", '<p class="lead">Hvor oplysningerne kommer fra, og hvor du selv kan følge med.</p>']
     for group in links:
@@ -150,6 +188,7 @@ def build_sources(links):
 def main():
     data = json.loads((ROOT / "data" / "sager.json").read_text(encoding="utf-8"))
     links = json.loads((ROOT / "data" / "links.json").read_text(encoding="utf-8"))
+    principles = json.loads((ROOT / "data" / "principper.json").read_text(encoding="utf-8"))
     topic_names = {t["slug"]: t["name"] for t in data["temaer"]}
     for case in data["sager"]:
         case["events"].sort(key=lambda event: event["d"], reverse=True)
@@ -173,6 +212,14 @@ def main():
             encoding="utf-8",
         )
 
+    principper_dir = ROOT / "principper"
+    principper_dir.mkdir(exist_ok=True)
+    (principper_dir / "index.html").write_text(
+        build_page("Principper – Nordvang/Ejby", "Skolebestyrelsens principper for Nordvang/Ejby: gældende, nye og under arbejde.",
+                   "principper/", "../", "principper/", CSS, build_principles(principles), footer),
+        encoding="utf-8",
+    )
+
     kilder_dir = ROOT / "kilder"
     kilder_dir.mkdir(exist_ok=True)
     (kilder_dir / "index.html").write_text(
@@ -180,7 +227,7 @@ def main():
                    "kilder/", "../", "kilder/", CSS, build_sources(links)),
         encoding="utf-8",
     )
-    print(f"sager/ ({len(data['sager'])} sager) og kilder/ bygget fra data/")
+    print(f"sager/ ({len(data['sager'])} sager), principper/ og kilder/ bygget fra data/")
 
 
 if __name__ == "__main__":

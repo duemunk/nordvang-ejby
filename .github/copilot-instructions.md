@@ -6,7 +6,7 @@ Repoet er en oversigt over politiske sager i Glostrup Kommune, der berører Nord
 
 - `data/overblik.md` er kilden til forsiden (Overblik). `README.md` er kun en introduktion til repoet; ret den ikke ved opdateringer.
 - `index.html` er GitHub Pages-siden. Den bygges med `python3 scripts/byg_side.py` og må aldrig redigeres i hånden.
-- `sager/` og `kilder/` bygges fra `data/sager.json` og `data/links.json` med `python3 scripts/byg_sager.py`. Ret aldrig de byggede filer i hånden.
+- `sager/`, `principper/` og `kilder/` bygges fra `data/sager.json`, `data/principper.json` og `data/links.json` med `python3 scripts/byg_sager.py`. Ret aldrig de byggede filer i hånden.
 - `scripts/hent_sager.py` henter skolerelevante punkter fra Åben Dagsorden (`https://dagsorden.glostrup.dk`).
 - Den fulde arbejdsgang står i `.claude/skills/opdater-skolesager/SKILL.md`. Læs den, før du opdaterer oversigten, og følg den.
 

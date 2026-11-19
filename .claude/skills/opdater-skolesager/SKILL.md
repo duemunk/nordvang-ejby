@@ -67,6 +67,7 @@ Siden "Sager efter tema" (`sager/`) bygges fra `data/sager.json`. Hver sag har `
 - Skolebestyrelsens høringssvar ligger som bilag på punkterne. `python3 scripts/hent_hoeringssvar.py` finder dem; link dem som `["Høringssvar (PDF)", "<url>"]`.
 - Skolebestyrelsens referater ligger i [Drive-mappen](https://drive.google.com/drive/folders/1wy7QcmXD0iuhFbZv6E8iGdMmu9Gv28CH). Nye referater tilføjes til `data/skolebestyrelse.json` og som hændelser med `"src": "Skolebestyrelsen"` og link til referatets PDF. Opdatér `referater_fra_til`. Hos GitHub Copilot er mappen allerede hentet til `referater/`.
 - Nye links til siden "Kilder og links" tilføjes i `data/links.json`.
+- Vedtager skolebestyrelsen et princip, eller ændres et princips status, så ret `data/principper.json` (siden "Principper"). Status er "vedtaget" (ikke offentliggjort endnu), "under arbejde", "gældende" eller "udkast"; `dato` er ÅÅÅÅ-MM-DD eller null. Link aldrig til udkast – et princip med status "udkast" har `"links": []`.
 
 ## 5. Byg siderne
 
@@ -82,7 +83,7 @@ python3 scripts/byg_sager.py
 
 ## 6. Send ændringen
 
-Commit data og de byggede filer sammen (`index.html`, `data/`, `sager/`, `kilder/`) med en kort dansk overskrift, fx "Tilføj referat fra Børne- og Skoleudvalget 02-12-2026".
+Commit data og de byggede filer sammen (`index.html`, `data/`, `sager/`, `principper/`, `kilder/`) med en kort dansk overskrift, fx "Tilføj referat fra Børne- og Skoleudvalget 02-12-2026".
 
 - Har du skriveadgang: lav en branch og en pull request med `gh pr create`.
 - Ellers: fork repoet (`gh repo fork --remote`), push til din fork, og opret pull request mod `duemunk/nordvang-ejby`.

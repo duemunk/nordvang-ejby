@@ -1,6 +1,6 @@
 """Fælles sidehoved, faneblade, typografi og sidefod for alle sider.
 
-Bruges af byg_side.py (forsiden) og byg_sager.py (sager og kilder). Farver og
+Bruges af byg_side.py (forsiden) og byg_sager.py (sager, principper og kilder). Farver og
 skrift følger Nordvang-/Ejbyskolens visuelle identitet.
 """
 
@@ -8,7 +8,7 @@ import html
 
 BASE_URL = "https://duemunk.github.io/nordvang-ejby/"
 
-TABS = [("", "Overblik"), ("sager/", "Sager"), ("kilder/", "Kilder og links")]
+TABS = [("", "Overblik"), ("sager/", "Sager"), ("principper/", "Principper"), ("kilder/", "Kilder og links")]
 
 BASE_CSS = """
 :root { --navy:#0b1f5a; --ink:#17203a; --grey:#5b6482; --yellow:#f2a826; --line:#dcd8cc; --paper:#fff; --tint:#f6f4ee; --sb:#e7ecf8; --font:"Source Sans 3","Source Sans Pro",system-ui,sans-serif; }
@@ -32,7 +32,7 @@ footer { margin-top:40px; padding-top:8px; border-top:1px solid var(--line); col
 @media (max-width:640px) {
   .page { padding:20px 16px 40px; }
   header .logo { width:44px; }
-  nav.tabs { gap:20px; margin-bottom:18px; }
+  nav.tabs { gap:14px; margin-bottom:18px; }
   h1 { font-size:26px; }
 }
 """
