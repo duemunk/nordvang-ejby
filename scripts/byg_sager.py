@@ -147,6 +147,7 @@ PRINCIPLE_SECTIONS = [
     ("under arbejde", "Under arbejde", "Senest drøftet"),
     ("gældende", "Gældende", "Vedtaget"),
     ("udkast", "Udkast", ""),
+    ("mangler", "Mangler", ""),
 ]
 
 
@@ -156,6 +157,7 @@ def build_principles(data):
         '<p class="lead">Skolebestyrelsens principper for Nordvang/Ejby. De ældste er fra den fælles Glostrup Skole og gælder fortsat, '
         "jf. skolebestyrelsens beslutning 15-08-2024.</p>",
         f'<p>{ext(data["mappe"], "Alle principper i Drive-mappen")}</p>',
+        f'<p class="m">Krav til principperne: {" · ".join(ext(url, label) for label, url in data["krav"])}</p>',
     ]
     for status, heading, date_label in PRINCIPLE_SECTIONS:
         principles = [p for p in data["principper"] if p["status"] == status]
@@ -163,7 +165,10 @@ def build_principles(data):
             continue
         out.append(f'<section class="linkgroup"><h2>{e(heading)}</h2><ul>')
         for principle in principles:
-            meta = f'<div class="m">{e(date_label)} {dk(principle["dato"])}</div>' if principle["dato"] else ""
+            meta_parts = [e(f"{date_label} {dk(principle['dato'])}")] if principle["dato"] else []
+            basis = " og ".join(ext(url, label) for label, url in principle["grundlag"])
+            meta_parts += [basis] if basis else []
+            meta = f'<div class="m">{" · ".join(meta_parts)}</div>' if meta_parts else ""
             links = "".join(ext(url, label) for label, url in principle["links"])
             links_html = f'<div class="links">{links}</div>' if links else ""
             out.append(

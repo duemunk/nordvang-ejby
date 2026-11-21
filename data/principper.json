@@ -1,17 +1,27 @@
 {
  "mappe": "https://drive.google.com/drive/folders/1zuK9zaHcd3HFEmefq7sEB-Xh39zz5TrK",
+ "krav": [
+  ["Folkeskoleloven § 44", "https://www.retsinformation.dk/eli/lta/2026/870#P44"],
+  ["Styrelsesvedtægten, bilag pkt. 8", "https://www.glostrup.dk/Media/639120182972404793/39102-26%20Bilag%20til%20Styrelsesvedt%C3%A6gt%20for%20Glostrup%20Kommunes%20skolev%C3%A6sen..pdf#page=9"],
+  ["Undervisningsmiljøloven § 1 b", "https://www.retsinformation.dk/eli/lta/2017/316#P1b"]
+ ],
  "principper": [
   {
    "t": "Kommunikation",
    "status": "vedtaget",
    "dato": "2025-04-24",
-   "x": "Skolebestyrelsens kommunikationsprincipper er vedtaget. Teksten ligger ikke i Drive-mappen endnu.",
-   "links": [["Referat 24-04-2025 (PDF)", "https://drive.google.com/file/d/1n53TvLaMS_t_TL7Eg1Jbrafa7l3PQP_P/view"]]
+   "grundlag": [["Folkeskoleloven § 44, stk. 2, nr. 4", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]],
+   "x": "Første udgave blev vedtaget med rettelser 10-12-2024 og endeligt godkendt 24-04-2025. Teksten ligger ikke i Drive-mappen endnu.",
+   "links": [
+    ["Referat 10-12-2024 (PDF)", "https://drive.google.com/file/d/1Y0t-Levphq80UmjBnn5Bq2Tb5IHAtw1O/view"],
+    ["Referat 24-04-2025 (PDF)", "https://drive.google.com/file/d/1n53TvLaMS_t_TL7Eg1Jbrafa7l3PQP_P/view"]
+   ]
   },
   {
    "t": "Klassedannelse",
    "status": "vedtaget",
    "dato": "2025-04-24",
+   "grundlag": [["Styrelsesvedtægten, bilag pkt. 8.1", "https://www.glostrup.dk/Media/639120182972404793/39102-26%20Bilag%20til%20Styrelsesvedt%C3%A6gt%20for%20Glostrup%20Kommunes%20skolev%C3%A6sen..pdf#page=9"]],
    "x": "Nyt princip bygget op om det generelle og det specifikke, vedtaget med mindre justeringer. Teksten ligger ikke i Drive-mappen endnu.",
    "links": [["Referat 24-04-2025 (PDF)", "https://drive.google.com/file/d/1n53TvLaMS_t_TL7Eg1Jbrafa7l3PQP_P/view"]]
   },
@@ -19,6 +29,7 @@
    "t": "Skole-hjemsamarbejde (revision)",
    "status": "under arbejde",
    "dato": "2025-12-02",
+   "grundlag": [["Folkeskoleloven § 44, stk. 2, nr. 4", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]],
    "x": "Nye skole-hjem-principper var klar til endelig vedtagelse på det næste møde. Referatet fra 14-01-2026 nævner dem ikke.",
    "links": [["Referat 02-12-2025 (PDF)", "https://drive.google.com/file/d/1PA1t-teimXafNjzsXalZOWzrmMdzFUUi/view"]]
   },
@@ -26,6 +37,7 @@
    "t": "Trivsel",
    "status": "under arbejde",
    "dato": "2025-12-02",
+   "grundlag": [],
    "x": "Udkast til trivselsprincipper, så skolebestyrelsen kan føre tilsyn. Drøftes med medarbejdere og elevråd.",
    "links": [
     ["Referat 22-09-2025 (PDF)", "https://drive.google.com/file/d/1BkyLUyezBYu8PedT2F0RAwXykRqTDqvO/view"],
@@ -33,19 +45,22 @@
    ]
   },
   {
-   "t": "Ordensregler og mobil- og skærmpolitik",
+   "t": "Ordensregler og princip for digitale enheder",
    "status": "under arbejde",
-   "dato": "2026-01-14",
-   "x": "Retning fra 22-09-2025: mobil og skærm håndteres hver for sig med regler pr. afdeling, og eleverne høres. Forårets arbejde blev udskudt 14-01-2026.",
+   "dato": "2026-10-26",
+   "grundlag": [["Folkeskoleloven § 44, stk. 5", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]],
+   "x": "Retning fra 22-09-2025: mobil og skærm håndteres hver for sig, og eleverne høres. 26-10-2026 var der bred opbakning til et udkast til princip for digitale enheder, men ikke enighed om, om telefoner og ure skal ligestilles. Elevrådet hører det, og et revideret udkast kommer på næste møde.",
    "links": [
     ["Referat 22-09-2025 (PDF)", "https://drive.google.com/file/d/1BkyLUyezBYu8PedT2F0RAwXykRqTDqvO/view"],
-    ["Referat 14-01-2026 (PDF)", "https://drive.google.com/file/d/1QH4SEsP4iJqD7Ri-JNH6vrVDXPDSdhRR/view"]
+    ["Referat 14-01-2026 (PDF)", "https://drive.google.com/file/d/1QH4SEsP4iJqD7Ri-JNH6vrVDXPDSdhRR/view"],
+    ["Referat 26-10-2026 (PDF)", "https://drive.google.com/file/d/1Awf6FLgTW0G4_lX6M8bVUhGkwtTc56KE/view"]
    ]
   },
   {
    "t": "Sådan er vi sammen: værdiregelsæt, ordensregler og antimobbestrategi",
    "status": "gældende",
    "dato": null,
+   "grundlag": [["Folkeskoleloven § 44, stk. 5", "https://www.retsinformation.dk/eli/lta/2026/870#P44"], ["undervisningsmiljøloven § 1 b", "https://www.retsinformation.dk/eli/lta/2017/316#P1b"]],
    "x": "Fælles for Skolerne i Glostrup, dateret 7. april 2022: børne- og ungesyn, positive forventninger, hvad vi ikke accepterer, og hvordan mobning håndteres. Gælder i skole, SFO og klub.",
    "links": [
     ["Dokument (PDF)", "https://drive.google.com/file/d/1Heh1rbJujDZT8DVoq-Z8eXJlD5VGakUe/view"],
@@ -56,6 +71,7 @@
    "t": "Lejrskoler",
    "status": "gældende",
    "dato": "2020-05-27",
+   "grundlag": [["Folkeskoleloven § 44, stk. 2, nr. 7", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]],
    "x": "To obligatoriske lejrskoler: 5. klasse i Danmark eller nabolande og 8. klasse i Danmark eller Europa, hver 3 dage med 2 overnatninger. Forældre betaler kun for kost.",
    "links": [["Princip (PDF)", "https://drive.google.com/file/d/1CFsc7paDY-eJQL-MfrPxXduuVT_WUNY2/view"]]
   },
@@ -63,6 +79,7 @@
    "t": "Arbejdets fordeling mellem det undervisende personale",
    "status": "gældende",
    "dato": "2019-12-17",
+   "grundlag": [["Folkeskoleloven § 44, stk. 2, nr. 6", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]],
    "x": "Fag og opgaver fordeles i dialog mellem ledelse og medarbejdere. Vægt på kvalificerede lærere, kontinuitet og én klasselærer pr. klasse. Vikardækning prioriteres efter elevernes behov.",
    "links": [["Princip (PDF)", "https://drive.google.com/file/d/1XE0uzqSRejsn1HxC5bA56YBtY6e6ZZsB/view"]]
   },
@@ -70,6 +87,7 @@
    "t": "Eliteidræt og musikskole",
    "status": "gældende",
    "dato": "2017-04-25",
+   "grundlag": [["Folkeskoleloven § 44, stk. 2, nr. 3", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]],
    "x": "Skolelederen kan lade elever på musikskole eller med idrætstalent på mindst regionalt niveau opfylde en del af undervisningspligten der. Aftalen evalueres mindst én gang om året.",
    "links": [["Princip (PDF)", "https://drive.google.com/file/d/18YnHvCZNIiOj5-BtPWAh8lRJLtY3D253/view"]]
   },
@@ -77,13 +95,15 @@
    "t": "Underretning af hjemmet og elevplaner",
    "status": "gældende",
    "dato": "2017-01-18",
-   "x": "Forældre skal løbende have fyldestgørende viden om barnets faglige udbytte og trivsel. Elevplanen er grundlaget for skole-hjemsamtalen.",
+   "grundlag": [["Folkeskoleloven § 44, stk. 2, nr. 5", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]],
+   "x": "Forældre skal løbende have fyldestgørende viden om barnets faglige udbytte og trivsel. Elevplanen er grundlaget for skole-hjemsamtalen. Elevplanen er siden afløst af meddelelsesbogen (folkeskoleloven § 13 b).",
    "links": [["Princip (Google Docs)", "https://docs.google.com/document/d/1lXxip_qmUKAt4ZADdHahzZylOjL1Qpyufm3QSGk_544/edit"]]
   },
   {
    "t": "Fritidstilbuddene (SFO og klub)",
    "status": "gældende",
    "dato": "2016-05-18",
+   "grundlag": [["Folkeskoleloven § 44, stk. 2, nr. 8", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]],
    "x": "SFO og klub skal støtte barnets læring, udvikling og trivsel i tæt samarbejde med skole og forældre, med leg, bevægelse og systematiske trivselsmålinger.",
    "links": [["Princip (PDF)", "https://drive.google.com/file/d/18QJ-aLND6oSt8-IP3Zn8Rcjfmnzf8_O-/view"]]
   },
@@ -91,6 +111,7 @@
    "t": "Skole-hjemsamarbejdet",
    "status": "gældende",
    "dato": "2016-04-26",
+   "grundlag": [["Folkeskoleloven § 44, stk. 2, nr. 4", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]],
    "x": "Mindst to skole-hjemsamtaler om året og tydelige forventninger begge veje. Forældre deltager i arrangementer og taler ikke negativt om skolen, når børnene hører det. En revision er under arbejde.",
    "links": [["Princip (PDF)", "https://drive.google.com/file/d/1DuTtBAr6WM4jAAbqQ_3gRpzBQwNmZT1J/view"]]
   },
@@ -98,13 +119,15 @@
    "t": "Understøttende undervisning",
    "status": "gældende",
    "dato": "2014-05-21",
-   "x": "Den understøttende undervisning skal styrke fællesskab, faglighed, læringsparathed og trivsel og supplere undervisningen i fagene.",
+   "grundlag": [],
+   "x": "Den understøttende undervisning skal styrke fællesskab, faglighed, læringsparathed og trivsel og supplere undervisningen i fagene. Folkeskoleloven nævner ikke længere understøttende undervisning.",
    "links": [["Princip (PDF)", "https://drive.google.com/file/d/1EHrCRbazC5PIjEH01HIp3nYU1Tl2fKfu/view"]]
   },
   {
    "t": "Budgetlægning",
    "status": "gældende",
    "dato": "2013-10-21",
+   "grundlag": [["Folkeskoleloven § 44, stk. 4", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]],
    "x": "Ledelsen lægger budgettet frem, så det er tydeligt, hvad skolebestyrelsen kan justere. Budgettet godkendes ved årets start, regnskabet fremlægges i marts, og der følges op hvert kvartal.",
    "links": [["Princip (PDF)", "https://drive.google.com/file/d/13SbsccoUeytsHm0hOC1pAm-T8JO0wOmn/view"]]
   },
@@ -112,6 +135,7 @@
    "t": "Klasseombrydning",
    "status": "gældende",
    "dato": "2013-03-19",
+   "grundlag": [["Styrelsesvedtægten, bilag pkt. 8.1", "https://www.glostrup.dk/Media/639120182972404793/39102-26%20Bilag%20til%20Styrelsesvedt%C3%A6gt%20for%20Glostrup%20Kommunes%20skolev%C3%A6sen..pdf#page=9"]],
    "x": "Klasser kan deles, lægges sammen eller ombrydes af pædagogiske, økonomiske eller sociale grunde. Skolebestyrelsen får beslutningen forelagt, og kontaktforældrene inddrages før de øvrige forældre.",
    "links": [["Princip (PDF)", "https://drive.google.com/file/d/15C95ZDxqJt-nQ_Q71oc0A9jf9wkGAM8E/view"]]
   },
@@ -119,6 +143,7 @@
    "t": "Klassedannelse ved indskrivning til børnehaveklasser",
    "status": "gældende",
    "dato": "2013-02-28",
+   "grundlag": [["Styrelsesvedtægten, bilag pkt. 8.2", "https://www.glostrup.dk/Media/639120182972404793/39102-26%20Bilag%20til%20Styrelsesvedt%C3%A6gt%20for%20Glostrup%20Kommunes%20skolev%C3%A6sen..pdf#page=10"]],
    "x": "Skolelederen sammensætter klasserne op til sommerferien ud fra erfaringer fra SFO og børnehaver. Børn med særlige behov og ressourcestærke elever fordeles jævnt. Et nyt princip for klassedannelse blev vedtaget 24-04-2025.",
    "links": [["Princip (PDF)", "https://drive.google.com/file/d/1Iw8VyaBdancqTQ8ZkO-03uqozgo-1WoN/view"]]
   },
@@ -126,7 +151,32 @@
    "t": "Undervisningens organisering",
    "status": "udkast",
    "dato": null,
+   "grundlag": [["Folkeskoleloven § 44, stk. 2, nr. 1", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]],
    "x": "Udkast, der samler klassedannelse, holddannelse, skoledagens længde, vikardækning, differentiering, specialundervisning og den åbne skole i ét princip.",
+   "links": []
+  },
+  {
+   "t": "Elevernes udvikling i skolens faglige og sociale fællesskaber",
+   "status": "mangler",
+   "dato": null,
+   "grundlag": [["Folkeskoleloven § 44, stk. 2, nr. 2", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]],
+   "x": "Loven kræver et princip for skolens arbejde med elevernes udvikling i faglige og sociale fællesskaber. Der er ikke fundet et dokument.",
+   "links": []
+  },
+  {
+   "t": "Samarbejder med foreninger og andre",
+   "status": "mangler",
+   "dato": null,
+   "grundlag": [["Folkeskoleloven § 44, stk. 2, nr. 1", "https://www.retsinformation.dk/eli/lta/2026/870#P44"], ["§ 3, stk. 4", "https://www.retsinformation.dk/eli/lta/2026/870#P3"]],
+   "x": "Loven kræver principper for skolens samarbejder efter § 3, stk. 4, som del af undervisningens organisering. Der er ikke fundet et dokument.",
+   "links": []
+  },
+  {
+   "t": "Optagelse og flytning af elever",
+   "status": "mangler",
+   "dato": null,
+   "grundlag": [["Styrelsesvedtægten, bilag pkt. 8", "https://www.glostrup.dk/Media/639120182972404793/39102-26%20Bilag%20til%20Styrelsesvedt%C3%A6gt%20for%20Glostrup%20Kommunes%20skolev%C3%A6sen..pdf#page=9"]],
+   "x": "Styrelsesvedtægten kræver principper for optagelse af elever, herunder flytning mellem skolernes almenklasser. Der er ikke fundet et dokument.",
    "links": []
   }
  ]

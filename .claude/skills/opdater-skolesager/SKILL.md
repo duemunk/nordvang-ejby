@@ -67,7 +67,7 @@ Siden "Sager efter tema" (`sager/`) bygges fra `data/sager.json`. Hver sag har `
 - Skolebestyrelsens høringssvar ligger som bilag på punkterne. `python3 scripts/hent_hoeringssvar.py` finder dem; link dem som `["Høringssvar (PDF)", "<url>"]`.
 - Skolebestyrelsens referater ligger i [Drive-mappen](https://drive.google.com/drive/folders/1wy7QcmXD0iuhFbZv6E8iGdMmu9Gv28CH). Nye referater tilføjes til `data/skolebestyrelse.json` og som hændelser med `"src": "Skolebestyrelsen"` og link til referatets PDF. Opdatér `referater_fra_til`. Hos GitHub Copilot er mappen allerede hentet til `referater/`.
 - Nye links til siden "Kilder og links" tilføjes i `data/links.json`.
-- Vedtager skolebestyrelsen et princip, eller ændres et princips status, så ret `data/principper.json` (siden "Principper"). Status er "vedtaget" (ikke offentliggjort endnu), "under arbejde", "gældende" eller "udkast"; `dato` er ÅÅÅÅ-MM-DD eller null. Link aldrig til udkast – et princip med status "udkast" har `"links": []`.
+- Vedtager skolebestyrelsen et princip, eller ændres et princips status, så ret `data/principper.json` (siden "Principper"). Status er "vedtaget" (ikke offentliggjort endnu), "under arbejde", "gældende", "udkast" eller "mangler" (kræves, men findes ikke); `dato` er ÅÅÅÅ-MM-DD eller null. `grundlag` er en liste af links til de paragraffer, der kræver princippet, fx `[["Folkeskoleloven § 44, stk. 2, nr. 4", "https://www.retsinformation.dk/eli/lta/2026/870#P44"]]` (Retsinformation: `#P<paragraf>`; styrelsesvedtægtens bilag: `#page=<side>`), eller `[]`. Link aldrig til udkast – et princip med status "udkast" har `"links": []`.
 
 ## 5. Byg siderne
 
